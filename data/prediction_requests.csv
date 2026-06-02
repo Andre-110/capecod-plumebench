@@ -1,0 +1,865 @@
+target_id,well_id,x_m,y_m,screen_depth_m,year,analyte,unit,threshold
+T0001,W004,2979.64,-344.89,23.68,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0002,W004,2979.64,-344.89,23.68,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0003,W004,2979.64,-344.89,23.68,2020,chloride_mg_l,mg/L,120.0
+T0004,W004,2979.64,-344.89,23.68,2020,specific_conductance_us_cm,uS/cm,600.0
+T0005,W004,2979.64,-344.89,23.68,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0006,W004,2979.64,-344.89,23.68,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0007,W004,2979.64,-344.89,23.68,2024,chloride_mg_l,mg/L,120.0
+T0008,W004,2979.64,-344.89,23.68,2024,specific_conductance_us_cm,uS/cm,600.0
+T0009,W004,2979.64,-344.89,23.68,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0010,W004,2979.64,-344.89,23.68,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0011,W004,2979.64,-344.89,23.68,2028,chloride_mg_l,mg/L,120.0
+T0012,W004,2979.64,-344.89,23.68,2028,specific_conductance_us_cm,uS/cm,600.0
+T0013,W004,2979.64,-344.89,23.68,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0014,W004,2979.64,-344.89,23.68,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0015,W004,2979.64,-344.89,23.68,2032,chloride_mg_l,mg/L,120.0
+T0016,W004,2979.64,-344.89,23.68,2032,specific_conductance_us_cm,uS/cm,600.0
+T0017,W004,2979.64,-344.89,23.68,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0018,W004,2979.64,-344.89,23.68,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0019,W004,2979.64,-344.89,23.68,2036,chloride_mg_l,mg/L,120.0
+T0020,W004,2979.64,-344.89,23.68,2036,specific_conductance_us_cm,uS/cm,600.0
+T0021,W004,2979.64,-344.89,23.68,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0022,W004,2979.64,-344.89,23.68,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0023,W004,2979.64,-344.89,23.68,2040,chloride_mg_l,mg/L,120.0
+T0024,W004,2979.64,-344.89,23.68,2040,specific_conductance_us_cm,uS/cm,600.0
+T0025,W011,4693.8,-338.12,29.32,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0026,W011,4693.8,-338.12,29.32,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0027,W011,4693.8,-338.12,29.32,2020,chloride_mg_l,mg/L,120.0
+T0028,W011,4693.8,-338.12,29.32,2020,specific_conductance_us_cm,uS/cm,600.0
+T0029,W011,4693.8,-338.12,29.32,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0030,W011,4693.8,-338.12,29.32,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0031,W011,4693.8,-338.12,29.32,2024,chloride_mg_l,mg/L,120.0
+T0032,W011,4693.8,-338.12,29.32,2024,specific_conductance_us_cm,uS/cm,600.0
+T0033,W011,4693.8,-338.12,29.32,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0034,W011,4693.8,-338.12,29.32,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0035,W011,4693.8,-338.12,29.32,2028,chloride_mg_l,mg/L,120.0
+T0036,W011,4693.8,-338.12,29.32,2028,specific_conductance_us_cm,uS/cm,600.0
+T0037,W011,4693.8,-338.12,29.32,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0038,W011,4693.8,-338.12,29.32,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0039,W011,4693.8,-338.12,29.32,2032,chloride_mg_l,mg/L,120.0
+T0040,W011,4693.8,-338.12,29.32,2032,specific_conductance_us_cm,uS/cm,600.0
+T0041,W011,4693.8,-338.12,29.32,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0042,W011,4693.8,-338.12,29.32,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0043,W011,4693.8,-338.12,29.32,2036,chloride_mg_l,mg/L,120.0
+T0044,W011,4693.8,-338.12,29.32,2036,specific_conductance_us_cm,uS/cm,600.0
+T0045,W011,4693.8,-338.12,29.32,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0046,W011,4693.8,-338.12,29.32,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0047,W011,4693.8,-338.12,29.32,2040,chloride_mg_l,mg/L,120.0
+T0048,W011,4693.8,-338.12,29.32,2040,specific_conductance_us_cm,uS/cm,600.0
+T0049,W012,4815.03,284.58,26.89,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0050,W012,4815.03,284.58,26.89,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0051,W012,4815.03,284.58,26.89,2020,chloride_mg_l,mg/L,120.0
+T0052,W012,4815.03,284.58,26.89,2020,specific_conductance_us_cm,uS/cm,600.0
+T0053,W012,4815.03,284.58,26.89,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0054,W012,4815.03,284.58,26.89,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0055,W012,4815.03,284.58,26.89,2024,chloride_mg_l,mg/L,120.0
+T0056,W012,4815.03,284.58,26.89,2024,specific_conductance_us_cm,uS/cm,600.0
+T0057,W012,4815.03,284.58,26.89,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0058,W012,4815.03,284.58,26.89,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0059,W012,4815.03,284.58,26.89,2028,chloride_mg_l,mg/L,120.0
+T0060,W012,4815.03,284.58,26.89,2028,specific_conductance_us_cm,uS/cm,600.0
+T0061,W012,4815.03,284.58,26.89,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0062,W012,4815.03,284.58,26.89,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0063,W012,4815.03,284.58,26.89,2032,chloride_mg_l,mg/L,120.0
+T0064,W012,4815.03,284.58,26.89,2032,specific_conductance_us_cm,uS/cm,600.0
+T0065,W012,4815.03,284.58,26.89,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0066,W012,4815.03,284.58,26.89,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0067,W012,4815.03,284.58,26.89,2036,chloride_mg_l,mg/L,120.0
+T0068,W012,4815.03,284.58,26.89,2036,specific_conductance_us_cm,uS/cm,600.0
+T0069,W012,4815.03,284.58,26.89,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0070,W012,4815.03,284.58,26.89,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0071,W012,4815.03,284.58,26.89,2040,chloride_mg_l,mg/L,120.0
+T0072,W012,4815.03,284.58,26.89,2040,specific_conductance_us_cm,uS/cm,600.0
+T0073,W013,1856.08,560.23,20.98,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0074,W013,1856.08,560.23,20.98,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0075,W013,1856.08,560.23,20.98,2020,chloride_mg_l,mg/L,120.0
+T0076,W013,1856.08,560.23,20.98,2020,specific_conductance_us_cm,uS/cm,600.0
+T0077,W013,1856.08,560.23,20.98,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0078,W013,1856.08,560.23,20.98,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0079,W013,1856.08,560.23,20.98,2024,chloride_mg_l,mg/L,120.0
+T0080,W013,1856.08,560.23,20.98,2024,specific_conductance_us_cm,uS/cm,600.0
+T0081,W013,1856.08,560.23,20.98,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0082,W013,1856.08,560.23,20.98,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0083,W013,1856.08,560.23,20.98,2028,chloride_mg_l,mg/L,120.0
+T0084,W013,1856.08,560.23,20.98,2028,specific_conductance_us_cm,uS/cm,600.0
+T0085,W013,1856.08,560.23,20.98,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0086,W013,1856.08,560.23,20.98,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0087,W013,1856.08,560.23,20.98,2032,chloride_mg_l,mg/L,120.0
+T0088,W013,1856.08,560.23,20.98,2032,specific_conductance_us_cm,uS/cm,600.0
+T0089,W013,1856.08,560.23,20.98,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0090,W013,1856.08,560.23,20.98,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0091,W013,1856.08,560.23,20.98,2036,chloride_mg_l,mg/L,120.0
+T0092,W013,1856.08,560.23,20.98,2036,specific_conductance_us_cm,uS/cm,600.0
+T0093,W013,1856.08,560.23,20.98,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0094,W013,1856.08,560.23,20.98,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0095,W013,1856.08,560.23,20.98,2040,chloride_mg_l,mg/L,120.0
+T0096,W013,1856.08,560.23,20.98,2040,specific_conductance_us_cm,uS/cm,600.0
+T0097,W026,4537.52,241.55,35.5,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0098,W026,4537.52,241.55,35.5,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0099,W026,4537.52,241.55,35.5,2020,chloride_mg_l,mg/L,120.0
+T0100,W026,4537.52,241.55,35.5,2020,specific_conductance_us_cm,uS/cm,600.0
+T0101,W026,4537.52,241.55,35.5,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0102,W026,4537.52,241.55,35.5,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0103,W026,4537.52,241.55,35.5,2024,chloride_mg_l,mg/L,120.0
+T0104,W026,4537.52,241.55,35.5,2024,specific_conductance_us_cm,uS/cm,600.0
+T0105,W026,4537.52,241.55,35.5,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0106,W026,4537.52,241.55,35.5,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0107,W026,4537.52,241.55,35.5,2028,chloride_mg_l,mg/L,120.0
+T0108,W026,4537.52,241.55,35.5,2028,specific_conductance_us_cm,uS/cm,600.0
+T0109,W026,4537.52,241.55,35.5,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0110,W026,4537.52,241.55,35.5,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0111,W026,4537.52,241.55,35.5,2032,chloride_mg_l,mg/L,120.0
+T0112,W026,4537.52,241.55,35.5,2032,specific_conductance_us_cm,uS/cm,600.0
+T0113,W026,4537.52,241.55,35.5,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0114,W026,4537.52,241.55,35.5,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0115,W026,4537.52,241.55,35.5,2036,chloride_mg_l,mg/L,120.0
+T0116,W026,4537.52,241.55,35.5,2036,specific_conductance_us_cm,uS/cm,600.0
+T0117,W026,4537.52,241.55,35.5,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0118,W026,4537.52,241.55,35.5,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0119,W026,4537.52,241.55,35.5,2040,chloride_mg_l,mg/L,120.0
+T0120,W026,4537.52,241.55,35.5,2040,specific_conductance_us_cm,uS/cm,600.0
+T0121,W028,3877.9,-313.42,30.94,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0122,W028,3877.9,-313.42,30.94,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0123,W028,3877.9,-313.42,30.94,2020,chloride_mg_l,mg/L,120.0
+T0124,W028,3877.9,-313.42,30.94,2020,specific_conductance_us_cm,uS/cm,600.0
+T0125,W028,3877.9,-313.42,30.94,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0126,W028,3877.9,-313.42,30.94,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0127,W028,3877.9,-313.42,30.94,2024,chloride_mg_l,mg/L,120.0
+T0128,W028,3877.9,-313.42,30.94,2024,specific_conductance_us_cm,uS/cm,600.0
+T0129,W028,3877.9,-313.42,30.94,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0130,W028,3877.9,-313.42,30.94,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0131,W028,3877.9,-313.42,30.94,2028,chloride_mg_l,mg/L,120.0
+T0132,W028,3877.9,-313.42,30.94,2028,specific_conductance_us_cm,uS/cm,600.0
+T0133,W028,3877.9,-313.42,30.94,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0134,W028,3877.9,-313.42,30.94,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0135,W028,3877.9,-313.42,30.94,2032,chloride_mg_l,mg/L,120.0
+T0136,W028,3877.9,-313.42,30.94,2032,specific_conductance_us_cm,uS/cm,600.0
+T0137,W028,3877.9,-313.42,30.94,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0138,W028,3877.9,-313.42,30.94,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0139,W028,3877.9,-313.42,30.94,2036,chloride_mg_l,mg/L,120.0
+T0140,W028,3877.9,-313.42,30.94,2036,specific_conductance_us_cm,uS/cm,600.0
+T0141,W028,3877.9,-313.42,30.94,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0142,W028,3877.9,-313.42,30.94,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0143,W028,3877.9,-313.42,30.94,2040,chloride_mg_l,mg/L,120.0
+T0144,W028,3877.9,-313.42,30.94,2040,specific_conductance_us_cm,uS/cm,600.0
+T0145,W029,5132.12,144.06,31.79,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0146,W029,5132.12,144.06,31.79,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0147,W029,5132.12,144.06,31.79,2020,chloride_mg_l,mg/L,120.0
+T0148,W029,5132.12,144.06,31.79,2020,specific_conductance_us_cm,uS/cm,600.0
+T0149,W029,5132.12,144.06,31.79,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0150,W029,5132.12,144.06,31.79,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0151,W029,5132.12,144.06,31.79,2024,chloride_mg_l,mg/L,120.0
+T0152,W029,5132.12,144.06,31.79,2024,specific_conductance_us_cm,uS/cm,600.0
+T0153,W029,5132.12,144.06,31.79,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0154,W029,5132.12,144.06,31.79,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0155,W029,5132.12,144.06,31.79,2028,chloride_mg_l,mg/L,120.0
+T0156,W029,5132.12,144.06,31.79,2028,specific_conductance_us_cm,uS/cm,600.0
+T0157,W029,5132.12,144.06,31.79,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0158,W029,5132.12,144.06,31.79,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0159,W029,5132.12,144.06,31.79,2032,chloride_mg_l,mg/L,120.0
+T0160,W029,5132.12,144.06,31.79,2032,specific_conductance_us_cm,uS/cm,600.0
+T0161,W029,5132.12,144.06,31.79,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0162,W029,5132.12,144.06,31.79,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0163,W029,5132.12,144.06,31.79,2036,chloride_mg_l,mg/L,120.0
+T0164,W029,5132.12,144.06,31.79,2036,specific_conductance_us_cm,uS/cm,600.0
+T0165,W029,5132.12,144.06,31.79,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0166,W029,5132.12,144.06,31.79,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0167,W029,5132.12,144.06,31.79,2040,chloride_mg_l,mg/L,120.0
+T0168,W029,5132.12,144.06,31.79,2040,specific_conductance_us_cm,uS/cm,600.0
+T0169,W031,1260.7,-245.5,15.32,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0170,W031,1260.7,-245.5,15.32,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0171,W031,1260.7,-245.5,15.32,2020,chloride_mg_l,mg/L,120.0
+T0172,W031,1260.7,-245.5,15.32,2020,specific_conductance_us_cm,uS/cm,600.0
+T0173,W031,1260.7,-245.5,15.32,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0174,W031,1260.7,-245.5,15.32,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0175,W031,1260.7,-245.5,15.32,2024,chloride_mg_l,mg/L,120.0
+T0176,W031,1260.7,-245.5,15.32,2024,specific_conductance_us_cm,uS/cm,600.0
+T0177,W031,1260.7,-245.5,15.32,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0178,W031,1260.7,-245.5,15.32,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0179,W031,1260.7,-245.5,15.32,2028,chloride_mg_l,mg/L,120.0
+T0180,W031,1260.7,-245.5,15.32,2028,specific_conductance_us_cm,uS/cm,600.0
+T0181,W031,1260.7,-245.5,15.32,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0182,W031,1260.7,-245.5,15.32,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0183,W031,1260.7,-245.5,15.32,2032,chloride_mg_l,mg/L,120.0
+T0184,W031,1260.7,-245.5,15.32,2032,specific_conductance_us_cm,uS/cm,600.0
+T0185,W031,1260.7,-245.5,15.32,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0186,W031,1260.7,-245.5,15.32,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0187,W031,1260.7,-245.5,15.32,2036,chloride_mg_l,mg/L,120.0
+T0188,W031,1260.7,-245.5,15.32,2036,specific_conductance_us_cm,uS/cm,600.0
+T0189,W031,1260.7,-245.5,15.32,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0190,W031,1260.7,-245.5,15.32,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0191,W031,1260.7,-245.5,15.32,2040,chloride_mg_l,mg/L,120.0
+T0192,W031,1260.7,-245.5,15.32,2040,specific_conductance_us_cm,uS/cm,600.0
+T0193,W036,449.13,-444.62,11.8,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0194,W036,449.13,-444.62,11.8,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0195,W036,449.13,-444.62,11.8,2020,chloride_mg_l,mg/L,120.0
+T0196,W036,449.13,-444.62,11.8,2020,specific_conductance_us_cm,uS/cm,600.0
+T0197,W036,449.13,-444.62,11.8,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0198,W036,449.13,-444.62,11.8,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0199,W036,449.13,-444.62,11.8,2024,chloride_mg_l,mg/L,120.0
+T0200,W036,449.13,-444.62,11.8,2024,specific_conductance_us_cm,uS/cm,600.0
+T0201,W036,449.13,-444.62,11.8,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0202,W036,449.13,-444.62,11.8,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0203,W036,449.13,-444.62,11.8,2028,chloride_mg_l,mg/L,120.0
+T0204,W036,449.13,-444.62,11.8,2028,specific_conductance_us_cm,uS/cm,600.0
+T0205,W036,449.13,-444.62,11.8,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0206,W036,449.13,-444.62,11.8,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0207,W036,449.13,-444.62,11.8,2032,chloride_mg_l,mg/L,120.0
+T0208,W036,449.13,-444.62,11.8,2032,specific_conductance_us_cm,uS/cm,600.0
+T0209,W036,449.13,-444.62,11.8,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0210,W036,449.13,-444.62,11.8,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0211,W036,449.13,-444.62,11.8,2036,chloride_mg_l,mg/L,120.0
+T0212,W036,449.13,-444.62,11.8,2036,specific_conductance_us_cm,uS/cm,600.0
+T0213,W036,449.13,-444.62,11.8,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0214,W036,449.13,-444.62,11.8,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0215,W036,449.13,-444.62,11.8,2040,chloride_mg_l,mg/L,120.0
+T0216,W036,449.13,-444.62,11.8,2040,specific_conductance_us_cm,uS/cm,600.0
+T0217,W038,2151.99,432.8,19.39,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0218,W038,2151.99,432.8,19.39,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0219,W038,2151.99,432.8,19.39,2020,chloride_mg_l,mg/L,120.0
+T0220,W038,2151.99,432.8,19.39,2020,specific_conductance_us_cm,uS/cm,600.0
+T0221,W038,2151.99,432.8,19.39,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0222,W038,2151.99,432.8,19.39,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0223,W038,2151.99,432.8,19.39,2024,chloride_mg_l,mg/L,120.0
+T0224,W038,2151.99,432.8,19.39,2024,specific_conductance_us_cm,uS/cm,600.0
+T0225,W038,2151.99,432.8,19.39,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0226,W038,2151.99,432.8,19.39,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0227,W038,2151.99,432.8,19.39,2028,chloride_mg_l,mg/L,120.0
+T0228,W038,2151.99,432.8,19.39,2028,specific_conductance_us_cm,uS/cm,600.0
+T0229,W038,2151.99,432.8,19.39,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0230,W038,2151.99,432.8,19.39,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0231,W038,2151.99,432.8,19.39,2032,chloride_mg_l,mg/L,120.0
+T0232,W038,2151.99,432.8,19.39,2032,specific_conductance_us_cm,uS/cm,600.0
+T0233,W038,2151.99,432.8,19.39,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0234,W038,2151.99,432.8,19.39,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0235,W038,2151.99,432.8,19.39,2036,chloride_mg_l,mg/L,120.0
+T0236,W038,2151.99,432.8,19.39,2036,specific_conductance_us_cm,uS/cm,600.0
+T0237,W038,2151.99,432.8,19.39,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0238,W038,2151.99,432.8,19.39,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0239,W038,2151.99,432.8,19.39,2040,chloride_mg_l,mg/L,120.0
+T0240,W038,2151.99,432.8,19.39,2040,specific_conductance_us_cm,uS/cm,600.0
+T0241,W039,4852.42,157.77,30.18,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0242,W039,4852.42,157.77,30.18,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0243,W039,4852.42,157.77,30.18,2020,chloride_mg_l,mg/L,120.0
+T0244,W039,4852.42,157.77,30.18,2020,specific_conductance_us_cm,uS/cm,600.0
+T0245,W039,4852.42,157.77,30.18,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0246,W039,4852.42,157.77,30.18,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0247,W039,4852.42,157.77,30.18,2024,chloride_mg_l,mg/L,120.0
+T0248,W039,4852.42,157.77,30.18,2024,specific_conductance_us_cm,uS/cm,600.0
+T0249,W039,4852.42,157.77,30.18,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0250,W039,4852.42,157.77,30.18,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0251,W039,4852.42,157.77,30.18,2028,chloride_mg_l,mg/L,120.0
+T0252,W039,4852.42,157.77,30.18,2028,specific_conductance_us_cm,uS/cm,600.0
+T0253,W039,4852.42,157.77,30.18,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0254,W039,4852.42,157.77,30.18,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0255,W039,4852.42,157.77,30.18,2032,chloride_mg_l,mg/L,120.0
+T0256,W039,4852.42,157.77,30.18,2032,specific_conductance_us_cm,uS/cm,600.0
+T0257,W039,4852.42,157.77,30.18,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0258,W039,4852.42,157.77,30.18,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0259,W039,4852.42,157.77,30.18,2036,chloride_mg_l,mg/L,120.0
+T0260,W039,4852.42,157.77,30.18,2036,specific_conductance_us_cm,uS/cm,600.0
+T0261,W039,4852.42,157.77,30.18,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0262,W039,4852.42,157.77,30.18,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0263,W039,4852.42,157.77,30.18,2040,chloride_mg_l,mg/L,120.0
+T0264,W039,4852.42,157.77,30.18,2040,specific_conductance_us_cm,uS/cm,600.0
+T0265,W042,4112.23,6.72,23.34,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0266,W042,4112.23,6.72,23.34,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0267,W042,4112.23,6.72,23.34,2020,chloride_mg_l,mg/L,120.0
+T0268,W042,4112.23,6.72,23.34,2020,specific_conductance_us_cm,uS/cm,600.0
+T0269,W042,4112.23,6.72,23.34,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0270,W042,4112.23,6.72,23.34,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0271,W042,4112.23,6.72,23.34,2024,chloride_mg_l,mg/L,120.0
+T0272,W042,4112.23,6.72,23.34,2024,specific_conductance_us_cm,uS/cm,600.0
+T0273,W042,4112.23,6.72,23.34,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0274,W042,4112.23,6.72,23.34,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0275,W042,4112.23,6.72,23.34,2028,chloride_mg_l,mg/L,120.0
+T0276,W042,4112.23,6.72,23.34,2028,specific_conductance_us_cm,uS/cm,600.0
+T0277,W042,4112.23,6.72,23.34,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0278,W042,4112.23,6.72,23.34,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0279,W042,4112.23,6.72,23.34,2032,chloride_mg_l,mg/L,120.0
+T0280,W042,4112.23,6.72,23.34,2032,specific_conductance_us_cm,uS/cm,600.0
+T0281,W042,4112.23,6.72,23.34,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0282,W042,4112.23,6.72,23.34,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0283,W042,4112.23,6.72,23.34,2036,chloride_mg_l,mg/L,120.0
+T0284,W042,4112.23,6.72,23.34,2036,specific_conductance_us_cm,uS/cm,600.0
+T0285,W042,4112.23,6.72,23.34,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0286,W042,4112.23,6.72,23.34,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0287,W042,4112.23,6.72,23.34,2040,chloride_mg_l,mg/L,120.0
+T0288,W042,4112.23,6.72,23.34,2040,specific_conductance_us_cm,uS/cm,600.0
+T0289,W044,4880.15,-30.65,28.03,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0290,W044,4880.15,-30.65,28.03,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0291,W044,4880.15,-30.65,28.03,2020,chloride_mg_l,mg/L,120.0
+T0292,W044,4880.15,-30.65,28.03,2020,specific_conductance_us_cm,uS/cm,600.0
+T0293,W044,4880.15,-30.65,28.03,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0294,W044,4880.15,-30.65,28.03,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0295,W044,4880.15,-30.65,28.03,2024,chloride_mg_l,mg/L,120.0
+T0296,W044,4880.15,-30.65,28.03,2024,specific_conductance_us_cm,uS/cm,600.0
+T0297,W044,4880.15,-30.65,28.03,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0298,W044,4880.15,-30.65,28.03,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0299,W044,4880.15,-30.65,28.03,2028,chloride_mg_l,mg/L,120.0
+T0300,W044,4880.15,-30.65,28.03,2028,specific_conductance_us_cm,uS/cm,600.0
+T0301,W044,4880.15,-30.65,28.03,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0302,W044,4880.15,-30.65,28.03,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0303,W044,4880.15,-30.65,28.03,2032,chloride_mg_l,mg/L,120.0
+T0304,W044,4880.15,-30.65,28.03,2032,specific_conductance_us_cm,uS/cm,600.0
+T0305,W044,4880.15,-30.65,28.03,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0306,W044,4880.15,-30.65,28.03,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0307,W044,4880.15,-30.65,28.03,2036,chloride_mg_l,mg/L,120.0
+T0308,W044,4880.15,-30.65,28.03,2036,specific_conductance_us_cm,uS/cm,600.0
+T0309,W044,4880.15,-30.65,28.03,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0310,W044,4880.15,-30.65,28.03,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0311,W044,4880.15,-30.65,28.03,2040,chloride_mg_l,mg/L,120.0
+T0312,W044,4880.15,-30.65,28.03,2040,specific_conductance_us_cm,uS/cm,600.0
+T0313,W046,4547.62,120.8,38.96,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0314,W046,4547.62,120.8,38.96,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0315,W046,4547.62,120.8,38.96,2020,chloride_mg_l,mg/L,120.0
+T0316,W046,4547.62,120.8,38.96,2020,specific_conductance_us_cm,uS/cm,600.0
+T0317,W046,4547.62,120.8,38.96,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0318,W046,4547.62,120.8,38.96,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0319,W046,4547.62,120.8,38.96,2024,chloride_mg_l,mg/L,120.0
+T0320,W046,4547.62,120.8,38.96,2024,specific_conductance_us_cm,uS/cm,600.0
+T0321,W046,4547.62,120.8,38.96,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0322,W046,4547.62,120.8,38.96,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0323,W046,4547.62,120.8,38.96,2028,chloride_mg_l,mg/L,120.0
+T0324,W046,4547.62,120.8,38.96,2028,specific_conductance_us_cm,uS/cm,600.0
+T0325,W046,4547.62,120.8,38.96,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0326,W046,4547.62,120.8,38.96,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0327,W046,4547.62,120.8,38.96,2032,chloride_mg_l,mg/L,120.0
+T0328,W046,4547.62,120.8,38.96,2032,specific_conductance_us_cm,uS/cm,600.0
+T0329,W046,4547.62,120.8,38.96,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0330,W046,4547.62,120.8,38.96,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0331,W046,4547.62,120.8,38.96,2036,chloride_mg_l,mg/L,120.0
+T0332,W046,4547.62,120.8,38.96,2036,specific_conductance_us_cm,uS/cm,600.0
+T0333,W046,4547.62,120.8,38.96,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0334,W046,4547.62,120.8,38.96,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0335,W046,4547.62,120.8,38.96,2040,chloride_mg_l,mg/L,120.0
+T0336,W046,4547.62,120.8,38.96,2040,specific_conductance_us_cm,uS/cm,600.0
+T0337,W049,2669.0,-390.27,21.61,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0338,W049,2669.0,-390.27,21.61,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0339,W049,2669.0,-390.27,21.61,2020,chloride_mg_l,mg/L,120.0
+T0340,W049,2669.0,-390.27,21.61,2020,specific_conductance_us_cm,uS/cm,600.0
+T0341,W049,2669.0,-390.27,21.61,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0342,W049,2669.0,-390.27,21.61,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0343,W049,2669.0,-390.27,21.61,2024,chloride_mg_l,mg/L,120.0
+T0344,W049,2669.0,-390.27,21.61,2024,specific_conductance_us_cm,uS/cm,600.0
+T0345,W049,2669.0,-390.27,21.61,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0346,W049,2669.0,-390.27,21.61,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0347,W049,2669.0,-390.27,21.61,2028,chloride_mg_l,mg/L,120.0
+T0348,W049,2669.0,-390.27,21.61,2028,specific_conductance_us_cm,uS/cm,600.0
+T0349,W049,2669.0,-390.27,21.61,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0350,W049,2669.0,-390.27,21.61,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0351,W049,2669.0,-390.27,21.61,2032,chloride_mg_l,mg/L,120.0
+T0352,W049,2669.0,-390.27,21.61,2032,specific_conductance_us_cm,uS/cm,600.0
+T0353,W049,2669.0,-390.27,21.61,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0354,W049,2669.0,-390.27,21.61,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0355,W049,2669.0,-390.27,21.61,2036,chloride_mg_l,mg/L,120.0
+T0356,W049,2669.0,-390.27,21.61,2036,specific_conductance_us_cm,uS/cm,600.0
+T0357,W049,2669.0,-390.27,21.61,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0358,W049,2669.0,-390.27,21.61,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0359,W049,2669.0,-390.27,21.61,2040,chloride_mg_l,mg/L,120.0
+T0360,W049,2669.0,-390.27,21.61,2040,specific_conductance_us_cm,uS/cm,600.0
+T0361,W051,3319.22,66.4,19.36,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0362,W051,3319.22,66.4,19.36,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0363,W051,3319.22,66.4,19.36,2020,chloride_mg_l,mg/L,120.0
+T0364,W051,3319.22,66.4,19.36,2020,specific_conductance_us_cm,uS/cm,600.0
+T0365,W051,3319.22,66.4,19.36,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0366,W051,3319.22,66.4,19.36,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0367,W051,3319.22,66.4,19.36,2024,chloride_mg_l,mg/L,120.0
+T0368,W051,3319.22,66.4,19.36,2024,specific_conductance_us_cm,uS/cm,600.0
+T0369,W051,3319.22,66.4,19.36,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0370,W051,3319.22,66.4,19.36,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0371,W051,3319.22,66.4,19.36,2028,chloride_mg_l,mg/L,120.0
+T0372,W051,3319.22,66.4,19.36,2028,specific_conductance_us_cm,uS/cm,600.0
+T0373,W051,3319.22,66.4,19.36,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0374,W051,3319.22,66.4,19.36,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0375,W051,3319.22,66.4,19.36,2032,chloride_mg_l,mg/L,120.0
+T0376,W051,3319.22,66.4,19.36,2032,specific_conductance_us_cm,uS/cm,600.0
+T0377,W051,3319.22,66.4,19.36,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0378,W051,3319.22,66.4,19.36,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0379,W051,3319.22,66.4,19.36,2036,chloride_mg_l,mg/L,120.0
+T0380,W051,3319.22,66.4,19.36,2036,specific_conductance_us_cm,uS/cm,600.0
+T0381,W051,3319.22,66.4,19.36,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0382,W051,3319.22,66.4,19.36,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0383,W051,3319.22,66.4,19.36,2040,chloride_mg_l,mg/L,120.0
+T0384,W051,3319.22,66.4,19.36,2040,specific_conductance_us_cm,uS/cm,600.0
+T0385,W054,3057.84,184.85,27.06,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0386,W054,3057.84,184.85,27.06,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0387,W054,3057.84,184.85,27.06,2020,chloride_mg_l,mg/L,120.0
+T0388,W054,3057.84,184.85,27.06,2020,specific_conductance_us_cm,uS/cm,600.0
+T0389,W054,3057.84,184.85,27.06,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0390,W054,3057.84,184.85,27.06,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0391,W054,3057.84,184.85,27.06,2024,chloride_mg_l,mg/L,120.0
+T0392,W054,3057.84,184.85,27.06,2024,specific_conductance_us_cm,uS/cm,600.0
+T0393,W054,3057.84,184.85,27.06,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0394,W054,3057.84,184.85,27.06,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0395,W054,3057.84,184.85,27.06,2028,chloride_mg_l,mg/L,120.0
+T0396,W054,3057.84,184.85,27.06,2028,specific_conductance_us_cm,uS/cm,600.0
+T0397,W054,3057.84,184.85,27.06,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0398,W054,3057.84,184.85,27.06,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0399,W054,3057.84,184.85,27.06,2032,chloride_mg_l,mg/L,120.0
+T0400,W054,3057.84,184.85,27.06,2032,specific_conductance_us_cm,uS/cm,600.0
+T0401,W054,3057.84,184.85,27.06,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0402,W054,3057.84,184.85,27.06,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0403,W054,3057.84,184.85,27.06,2036,chloride_mg_l,mg/L,120.0
+T0404,W054,3057.84,184.85,27.06,2036,specific_conductance_us_cm,uS/cm,600.0
+T0405,W054,3057.84,184.85,27.06,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0406,W054,3057.84,184.85,27.06,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0407,W054,3057.84,184.85,27.06,2040,chloride_mg_l,mg/L,120.0
+T0408,W054,3057.84,184.85,27.06,2040,specific_conductance_us_cm,uS/cm,600.0
+T0409,W055,588.62,297.37,15.74,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0410,W055,588.62,297.37,15.74,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0411,W055,588.62,297.37,15.74,2020,chloride_mg_l,mg/L,120.0
+T0412,W055,588.62,297.37,15.74,2020,specific_conductance_us_cm,uS/cm,600.0
+T0413,W055,588.62,297.37,15.74,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0414,W055,588.62,297.37,15.74,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0415,W055,588.62,297.37,15.74,2024,chloride_mg_l,mg/L,120.0
+T0416,W055,588.62,297.37,15.74,2024,specific_conductance_us_cm,uS/cm,600.0
+T0417,W055,588.62,297.37,15.74,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0418,W055,588.62,297.37,15.74,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0419,W055,588.62,297.37,15.74,2028,chloride_mg_l,mg/L,120.0
+T0420,W055,588.62,297.37,15.74,2028,specific_conductance_us_cm,uS/cm,600.0
+T0421,W055,588.62,297.37,15.74,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0422,W055,588.62,297.37,15.74,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0423,W055,588.62,297.37,15.74,2032,chloride_mg_l,mg/L,120.0
+T0424,W055,588.62,297.37,15.74,2032,specific_conductance_us_cm,uS/cm,600.0
+T0425,W055,588.62,297.37,15.74,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0426,W055,588.62,297.37,15.74,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0427,W055,588.62,297.37,15.74,2036,chloride_mg_l,mg/L,120.0
+T0428,W055,588.62,297.37,15.74,2036,specific_conductance_us_cm,uS/cm,600.0
+T0429,W055,588.62,297.37,15.74,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0430,W055,588.62,297.37,15.74,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0431,W055,588.62,297.37,15.74,2040,chloride_mg_l,mg/L,120.0
+T0432,W055,588.62,297.37,15.74,2040,specific_conductance_us_cm,uS/cm,600.0
+T0433,W057,1771.19,169.35,19.34,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0434,W057,1771.19,169.35,19.34,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0435,W057,1771.19,169.35,19.34,2020,chloride_mg_l,mg/L,120.0
+T0436,W057,1771.19,169.35,19.34,2020,specific_conductance_us_cm,uS/cm,600.0
+T0437,W057,1771.19,169.35,19.34,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0438,W057,1771.19,169.35,19.34,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0439,W057,1771.19,169.35,19.34,2024,chloride_mg_l,mg/L,120.0
+T0440,W057,1771.19,169.35,19.34,2024,specific_conductance_us_cm,uS/cm,600.0
+T0441,W057,1771.19,169.35,19.34,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0442,W057,1771.19,169.35,19.34,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0443,W057,1771.19,169.35,19.34,2028,chloride_mg_l,mg/L,120.0
+T0444,W057,1771.19,169.35,19.34,2028,specific_conductance_us_cm,uS/cm,600.0
+T0445,W057,1771.19,169.35,19.34,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0446,W057,1771.19,169.35,19.34,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0447,W057,1771.19,169.35,19.34,2032,chloride_mg_l,mg/L,120.0
+T0448,W057,1771.19,169.35,19.34,2032,specific_conductance_us_cm,uS/cm,600.0
+T0449,W057,1771.19,169.35,19.34,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0450,W057,1771.19,169.35,19.34,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0451,W057,1771.19,169.35,19.34,2036,chloride_mg_l,mg/L,120.0
+T0452,W057,1771.19,169.35,19.34,2036,specific_conductance_us_cm,uS/cm,600.0
+T0453,W057,1771.19,169.35,19.34,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0454,W057,1771.19,169.35,19.34,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0455,W057,1771.19,169.35,19.34,2040,chloride_mg_l,mg/L,120.0
+T0456,W057,1771.19,169.35,19.34,2040,specific_conductance_us_cm,uS/cm,600.0
+T0457,W059,3337.95,-352.57,29.56,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0458,W059,3337.95,-352.57,29.56,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0459,W059,3337.95,-352.57,29.56,2020,chloride_mg_l,mg/L,120.0
+T0460,W059,3337.95,-352.57,29.56,2020,specific_conductance_us_cm,uS/cm,600.0
+T0461,W059,3337.95,-352.57,29.56,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0462,W059,3337.95,-352.57,29.56,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0463,W059,3337.95,-352.57,29.56,2024,chloride_mg_l,mg/L,120.0
+T0464,W059,3337.95,-352.57,29.56,2024,specific_conductance_us_cm,uS/cm,600.0
+T0465,W059,3337.95,-352.57,29.56,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0466,W059,3337.95,-352.57,29.56,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0467,W059,3337.95,-352.57,29.56,2028,chloride_mg_l,mg/L,120.0
+T0468,W059,3337.95,-352.57,29.56,2028,specific_conductance_us_cm,uS/cm,600.0
+T0469,W059,3337.95,-352.57,29.56,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0470,W059,3337.95,-352.57,29.56,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0471,W059,3337.95,-352.57,29.56,2032,chloride_mg_l,mg/L,120.0
+T0472,W059,3337.95,-352.57,29.56,2032,specific_conductance_us_cm,uS/cm,600.0
+T0473,W059,3337.95,-352.57,29.56,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0474,W059,3337.95,-352.57,29.56,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0475,W059,3337.95,-352.57,29.56,2036,chloride_mg_l,mg/L,120.0
+T0476,W059,3337.95,-352.57,29.56,2036,specific_conductance_us_cm,uS/cm,600.0
+T0477,W059,3337.95,-352.57,29.56,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0478,W059,3337.95,-352.57,29.56,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0479,W059,3337.95,-352.57,29.56,2040,chloride_mg_l,mg/L,120.0
+T0480,W059,3337.95,-352.57,29.56,2040,specific_conductance_us_cm,uS/cm,600.0
+T0481,W067,4143.34,-278.12,24.25,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0482,W067,4143.34,-278.12,24.25,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0483,W067,4143.34,-278.12,24.25,2020,chloride_mg_l,mg/L,120.0
+T0484,W067,4143.34,-278.12,24.25,2020,specific_conductance_us_cm,uS/cm,600.0
+T0485,W067,4143.34,-278.12,24.25,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0486,W067,4143.34,-278.12,24.25,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0487,W067,4143.34,-278.12,24.25,2024,chloride_mg_l,mg/L,120.0
+T0488,W067,4143.34,-278.12,24.25,2024,specific_conductance_us_cm,uS/cm,600.0
+T0489,W067,4143.34,-278.12,24.25,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0490,W067,4143.34,-278.12,24.25,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0491,W067,4143.34,-278.12,24.25,2028,chloride_mg_l,mg/L,120.0
+T0492,W067,4143.34,-278.12,24.25,2028,specific_conductance_us_cm,uS/cm,600.0
+T0493,W067,4143.34,-278.12,24.25,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0494,W067,4143.34,-278.12,24.25,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0495,W067,4143.34,-278.12,24.25,2032,chloride_mg_l,mg/L,120.0
+T0496,W067,4143.34,-278.12,24.25,2032,specific_conductance_us_cm,uS/cm,600.0
+T0497,W067,4143.34,-278.12,24.25,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0498,W067,4143.34,-278.12,24.25,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0499,W067,4143.34,-278.12,24.25,2036,chloride_mg_l,mg/L,120.0
+T0500,W067,4143.34,-278.12,24.25,2036,specific_conductance_us_cm,uS/cm,600.0
+T0501,W067,4143.34,-278.12,24.25,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0502,W067,4143.34,-278.12,24.25,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0503,W067,4143.34,-278.12,24.25,2040,chloride_mg_l,mg/L,120.0
+T0504,W067,4143.34,-278.12,24.25,2040,specific_conductance_us_cm,uS/cm,600.0
+T0505,W074,1945.22,-307.75,17.79,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0506,W074,1945.22,-307.75,17.79,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0507,W074,1945.22,-307.75,17.79,2020,chloride_mg_l,mg/L,120.0
+T0508,W074,1945.22,-307.75,17.79,2020,specific_conductance_us_cm,uS/cm,600.0
+T0509,W074,1945.22,-307.75,17.79,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0510,W074,1945.22,-307.75,17.79,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0511,W074,1945.22,-307.75,17.79,2024,chloride_mg_l,mg/L,120.0
+T0512,W074,1945.22,-307.75,17.79,2024,specific_conductance_us_cm,uS/cm,600.0
+T0513,W074,1945.22,-307.75,17.79,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0514,W074,1945.22,-307.75,17.79,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0515,W074,1945.22,-307.75,17.79,2028,chloride_mg_l,mg/L,120.0
+T0516,W074,1945.22,-307.75,17.79,2028,specific_conductance_us_cm,uS/cm,600.0
+T0517,W074,1945.22,-307.75,17.79,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0518,W074,1945.22,-307.75,17.79,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0519,W074,1945.22,-307.75,17.79,2032,chloride_mg_l,mg/L,120.0
+T0520,W074,1945.22,-307.75,17.79,2032,specific_conductance_us_cm,uS/cm,600.0
+T0521,W074,1945.22,-307.75,17.79,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0522,W074,1945.22,-307.75,17.79,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0523,W074,1945.22,-307.75,17.79,2036,chloride_mg_l,mg/L,120.0
+T0524,W074,1945.22,-307.75,17.79,2036,specific_conductance_us_cm,uS/cm,600.0
+T0525,W074,1945.22,-307.75,17.79,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0526,W074,1945.22,-307.75,17.79,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0527,W074,1945.22,-307.75,17.79,2040,chloride_mg_l,mg/L,120.0
+T0528,W074,1945.22,-307.75,17.79,2040,specific_conductance_us_cm,uS/cm,600.0
+T0529,W075,2908.34,143.91,22.42,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0530,W075,2908.34,143.91,22.42,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0531,W075,2908.34,143.91,22.42,2020,chloride_mg_l,mg/L,120.0
+T0532,W075,2908.34,143.91,22.42,2020,specific_conductance_us_cm,uS/cm,600.0
+T0533,W075,2908.34,143.91,22.42,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0534,W075,2908.34,143.91,22.42,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0535,W075,2908.34,143.91,22.42,2024,chloride_mg_l,mg/L,120.0
+T0536,W075,2908.34,143.91,22.42,2024,specific_conductance_us_cm,uS/cm,600.0
+T0537,W075,2908.34,143.91,22.42,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0538,W075,2908.34,143.91,22.42,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0539,W075,2908.34,143.91,22.42,2028,chloride_mg_l,mg/L,120.0
+T0540,W075,2908.34,143.91,22.42,2028,specific_conductance_us_cm,uS/cm,600.0
+T0541,W075,2908.34,143.91,22.42,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0542,W075,2908.34,143.91,22.42,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0543,W075,2908.34,143.91,22.42,2032,chloride_mg_l,mg/L,120.0
+T0544,W075,2908.34,143.91,22.42,2032,specific_conductance_us_cm,uS/cm,600.0
+T0545,W075,2908.34,143.91,22.42,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0546,W075,2908.34,143.91,22.42,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0547,W075,2908.34,143.91,22.42,2036,chloride_mg_l,mg/L,120.0
+T0548,W075,2908.34,143.91,22.42,2036,specific_conductance_us_cm,uS/cm,600.0
+T0549,W075,2908.34,143.91,22.42,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0550,W075,2908.34,143.91,22.42,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0551,W075,2908.34,143.91,22.42,2040,chloride_mg_l,mg/L,120.0
+T0552,W075,2908.34,143.91,22.42,2040,specific_conductance_us_cm,uS/cm,600.0
+T0553,W083,1127.52,-340.33,15.99,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0554,W083,1127.52,-340.33,15.99,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0555,W083,1127.52,-340.33,15.99,2020,chloride_mg_l,mg/L,120.0
+T0556,W083,1127.52,-340.33,15.99,2020,specific_conductance_us_cm,uS/cm,600.0
+T0557,W083,1127.52,-340.33,15.99,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0558,W083,1127.52,-340.33,15.99,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0559,W083,1127.52,-340.33,15.99,2024,chloride_mg_l,mg/L,120.0
+T0560,W083,1127.52,-340.33,15.99,2024,specific_conductance_us_cm,uS/cm,600.0
+T0561,W083,1127.52,-340.33,15.99,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0562,W083,1127.52,-340.33,15.99,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0563,W083,1127.52,-340.33,15.99,2028,chloride_mg_l,mg/L,120.0
+T0564,W083,1127.52,-340.33,15.99,2028,specific_conductance_us_cm,uS/cm,600.0
+T0565,W083,1127.52,-340.33,15.99,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0566,W083,1127.52,-340.33,15.99,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0567,W083,1127.52,-340.33,15.99,2032,chloride_mg_l,mg/L,120.0
+T0568,W083,1127.52,-340.33,15.99,2032,specific_conductance_us_cm,uS/cm,600.0
+T0569,W083,1127.52,-340.33,15.99,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0570,W083,1127.52,-340.33,15.99,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0571,W083,1127.52,-340.33,15.99,2036,chloride_mg_l,mg/L,120.0
+T0572,W083,1127.52,-340.33,15.99,2036,specific_conductance_us_cm,uS/cm,600.0
+T0573,W083,1127.52,-340.33,15.99,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0574,W083,1127.52,-340.33,15.99,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0575,W083,1127.52,-340.33,15.99,2040,chloride_mg_l,mg/L,120.0
+T0576,W083,1127.52,-340.33,15.99,2040,specific_conductance_us_cm,uS/cm,600.0
+T0577,W021,2338.54,8.73,21.76,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0578,W021,2338.54,8.73,21.76,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0579,W021,2338.54,8.73,21.76,2020,chloride_mg_l,mg/L,120.0
+T0580,W021,2338.54,8.73,21.76,2020,specific_conductance_us_cm,uS/cm,600.0
+T0581,W021,2338.54,8.73,21.76,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0582,W021,2338.54,8.73,21.76,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0583,W021,2338.54,8.73,21.76,2024,chloride_mg_l,mg/L,120.0
+T0584,W021,2338.54,8.73,21.76,2024,specific_conductance_us_cm,uS/cm,600.0
+T0585,W021,2338.54,8.73,21.76,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0586,W021,2338.54,8.73,21.76,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0587,W021,2338.54,8.73,21.76,2028,chloride_mg_l,mg/L,120.0
+T0588,W021,2338.54,8.73,21.76,2028,specific_conductance_us_cm,uS/cm,600.0
+T0589,W021,2338.54,8.73,21.76,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0590,W021,2338.54,8.73,21.76,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0591,W021,2338.54,8.73,21.76,2032,chloride_mg_l,mg/L,120.0
+T0592,W021,2338.54,8.73,21.76,2032,specific_conductance_us_cm,uS/cm,600.0
+T0593,W021,2338.54,8.73,21.76,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0594,W021,2338.54,8.73,21.76,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0595,W021,2338.54,8.73,21.76,2036,chloride_mg_l,mg/L,120.0
+T0596,W021,2338.54,8.73,21.76,2036,specific_conductance_us_cm,uS/cm,600.0
+T0597,W021,2338.54,8.73,21.76,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0598,W021,2338.54,8.73,21.76,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0599,W021,2338.54,8.73,21.76,2040,chloride_mg_l,mg/L,120.0
+T0600,W021,2338.54,8.73,21.76,2040,specific_conductance_us_cm,uS/cm,600.0
+T0601,W030,3333.79,-69.86,28.42,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0602,W030,3333.79,-69.86,28.42,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0603,W030,3333.79,-69.86,28.42,2020,chloride_mg_l,mg/L,120.0
+T0604,W030,3333.79,-69.86,28.42,2020,specific_conductance_us_cm,uS/cm,600.0
+T0605,W030,3333.79,-69.86,28.42,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0606,W030,3333.79,-69.86,28.42,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0607,W030,3333.79,-69.86,28.42,2024,chloride_mg_l,mg/L,120.0
+T0608,W030,3333.79,-69.86,28.42,2024,specific_conductance_us_cm,uS/cm,600.0
+T0609,W030,3333.79,-69.86,28.42,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0610,W030,3333.79,-69.86,28.42,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0611,W030,3333.79,-69.86,28.42,2028,chloride_mg_l,mg/L,120.0
+T0612,W030,3333.79,-69.86,28.42,2028,specific_conductance_us_cm,uS/cm,600.0
+T0613,W030,3333.79,-69.86,28.42,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0614,W030,3333.79,-69.86,28.42,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0615,W030,3333.79,-69.86,28.42,2032,chloride_mg_l,mg/L,120.0
+T0616,W030,3333.79,-69.86,28.42,2032,specific_conductance_us_cm,uS/cm,600.0
+T0617,W030,3333.79,-69.86,28.42,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0618,W030,3333.79,-69.86,28.42,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0619,W030,3333.79,-69.86,28.42,2036,chloride_mg_l,mg/L,120.0
+T0620,W030,3333.79,-69.86,28.42,2036,specific_conductance_us_cm,uS/cm,600.0
+T0621,W030,3333.79,-69.86,28.42,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0622,W030,3333.79,-69.86,28.42,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0623,W030,3333.79,-69.86,28.42,2040,chloride_mg_l,mg/L,120.0
+T0624,W030,3333.79,-69.86,28.42,2040,specific_conductance_us_cm,uS/cm,600.0
+T0625,W068,1120.03,-302.56,19.92,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0626,W068,1120.03,-302.56,19.92,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0627,W068,1120.03,-302.56,19.92,2020,chloride_mg_l,mg/L,120.0
+T0628,W068,1120.03,-302.56,19.92,2020,specific_conductance_us_cm,uS/cm,600.0
+T0629,W068,1120.03,-302.56,19.92,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0630,W068,1120.03,-302.56,19.92,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0631,W068,1120.03,-302.56,19.92,2024,chloride_mg_l,mg/L,120.0
+T0632,W068,1120.03,-302.56,19.92,2024,specific_conductance_us_cm,uS/cm,600.0
+T0633,W068,1120.03,-302.56,19.92,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0634,W068,1120.03,-302.56,19.92,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0635,W068,1120.03,-302.56,19.92,2028,chloride_mg_l,mg/L,120.0
+T0636,W068,1120.03,-302.56,19.92,2028,specific_conductance_us_cm,uS/cm,600.0
+T0637,W068,1120.03,-302.56,19.92,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0638,W068,1120.03,-302.56,19.92,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0639,W068,1120.03,-302.56,19.92,2032,chloride_mg_l,mg/L,120.0
+T0640,W068,1120.03,-302.56,19.92,2032,specific_conductance_us_cm,uS/cm,600.0
+T0641,W068,1120.03,-302.56,19.92,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0642,W068,1120.03,-302.56,19.92,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0643,W068,1120.03,-302.56,19.92,2036,chloride_mg_l,mg/L,120.0
+T0644,W068,1120.03,-302.56,19.92,2036,specific_conductance_us_cm,uS/cm,600.0
+T0645,W068,1120.03,-302.56,19.92,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0646,W068,1120.03,-302.56,19.92,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0647,W068,1120.03,-302.56,19.92,2040,chloride_mg_l,mg/L,120.0
+T0648,W068,1120.03,-302.56,19.92,2040,specific_conductance_us_cm,uS/cm,600.0
+T0649,W080,4153.48,-125.6,27.12,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0650,W080,4153.48,-125.6,27.12,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0651,W080,4153.48,-125.6,27.12,2020,chloride_mg_l,mg/L,120.0
+T0652,W080,4153.48,-125.6,27.12,2020,specific_conductance_us_cm,uS/cm,600.0
+T0653,W080,4153.48,-125.6,27.12,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0654,W080,4153.48,-125.6,27.12,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0655,W080,4153.48,-125.6,27.12,2024,chloride_mg_l,mg/L,120.0
+T0656,W080,4153.48,-125.6,27.12,2024,specific_conductance_us_cm,uS/cm,600.0
+T0657,W080,4153.48,-125.6,27.12,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0658,W080,4153.48,-125.6,27.12,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0659,W080,4153.48,-125.6,27.12,2028,chloride_mg_l,mg/L,120.0
+T0660,W080,4153.48,-125.6,27.12,2028,specific_conductance_us_cm,uS/cm,600.0
+T0661,W080,4153.48,-125.6,27.12,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0662,W080,4153.48,-125.6,27.12,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0663,W080,4153.48,-125.6,27.12,2032,chloride_mg_l,mg/L,120.0
+T0664,W080,4153.48,-125.6,27.12,2032,specific_conductance_us_cm,uS/cm,600.0
+T0665,W080,4153.48,-125.6,27.12,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0666,W080,4153.48,-125.6,27.12,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0667,W080,4153.48,-125.6,27.12,2036,chloride_mg_l,mg/L,120.0
+T0668,W080,4153.48,-125.6,27.12,2036,specific_conductance_us_cm,uS/cm,600.0
+T0669,W080,4153.48,-125.6,27.12,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0670,W080,4153.48,-125.6,27.12,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0671,W080,4153.48,-125.6,27.12,2040,chloride_mg_l,mg/L,120.0
+T0672,W080,4153.48,-125.6,27.12,2040,specific_conductance_us_cm,uS/cm,600.0
+T0673,W037,3143.65,379.25,18.18,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0674,W037,3143.65,379.25,18.18,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0675,W037,3143.65,379.25,18.18,2020,chloride_mg_l,mg/L,120.0
+T0676,W037,3143.65,379.25,18.18,2020,specific_conductance_us_cm,uS/cm,600.0
+T0677,W037,3143.65,379.25,18.18,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0678,W037,3143.65,379.25,18.18,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0679,W037,3143.65,379.25,18.18,2024,chloride_mg_l,mg/L,120.0
+T0680,W037,3143.65,379.25,18.18,2024,specific_conductance_us_cm,uS/cm,600.0
+T0681,W037,3143.65,379.25,18.18,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0682,W037,3143.65,379.25,18.18,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0683,W037,3143.65,379.25,18.18,2028,chloride_mg_l,mg/L,120.0
+T0684,W037,3143.65,379.25,18.18,2028,specific_conductance_us_cm,uS/cm,600.0
+T0685,W037,3143.65,379.25,18.18,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0686,W037,3143.65,379.25,18.18,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0687,W037,3143.65,379.25,18.18,2032,chloride_mg_l,mg/L,120.0
+T0688,W037,3143.65,379.25,18.18,2032,specific_conductance_us_cm,uS/cm,600.0
+T0689,W037,3143.65,379.25,18.18,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0690,W037,3143.65,379.25,18.18,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0691,W037,3143.65,379.25,18.18,2036,chloride_mg_l,mg/L,120.0
+T0692,W037,3143.65,379.25,18.18,2036,specific_conductance_us_cm,uS/cm,600.0
+T0693,W037,3143.65,379.25,18.18,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0694,W037,3143.65,379.25,18.18,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0695,W037,3143.65,379.25,18.18,2040,chloride_mg_l,mg/L,120.0
+T0696,W037,3143.65,379.25,18.18,2040,specific_conductance_us_cm,uS/cm,600.0
+T0697,W072,3900.12,183.9,22.11,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0698,W072,3900.12,183.9,22.11,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0699,W072,3900.12,183.9,22.11,2020,chloride_mg_l,mg/L,120.0
+T0700,W072,3900.12,183.9,22.11,2020,specific_conductance_us_cm,uS/cm,600.0
+T0701,W072,3900.12,183.9,22.11,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0702,W072,3900.12,183.9,22.11,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0703,W072,3900.12,183.9,22.11,2024,chloride_mg_l,mg/L,120.0
+T0704,W072,3900.12,183.9,22.11,2024,specific_conductance_us_cm,uS/cm,600.0
+T0705,W072,3900.12,183.9,22.11,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0706,W072,3900.12,183.9,22.11,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0707,W072,3900.12,183.9,22.11,2028,chloride_mg_l,mg/L,120.0
+T0708,W072,3900.12,183.9,22.11,2028,specific_conductance_us_cm,uS/cm,600.0
+T0709,W072,3900.12,183.9,22.11,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0710,W072,3900.12,183.9,22.11,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0711,W072,3900.12,183.9,22.11,2032,chloride_mg_l,mg/L,120.0
+T0712,W072,3900.12,183.9,22.11,2032,specific_conductance_us_cm,uS/cm,600.0
+T0713,W072,3900.12,183.9,22.11,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0714,W072,3900.12,183.9,22.11,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0715,W072,3900.12,183.9,22.11,2036,chloride_mg_l,mg/L,120.0
+T0716,W072,3900.12,183.9,22.11,2036,specific_conductance_us_cm,uS/cm,600.0
+T0717,W072,3900.12,183.9,22.11,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0718,W072,3900.12,183.9,22.11,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0719,W072,3900.12,183.9,22.11,2040,chloride_mg_l,mg/L,120.0
+T0720,W072,3900.12,183.9,22.11,2040,specific_conductance_us_cm,uS/cm,600.0
+T0721,W060,405.94,31.19,21.84,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0722,W060,405.94,31.19,21.84,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0723,W060,405.94,31.19,21.84,2020,chloride_mg_l,mg/L,120.0
+T0724,W060,405.94,31.19,21.84,2020,specific_conductance_us_cm,uS/cm,600.0
+T0725,W060,405.94,31.19,21.84,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0726,W060,405.94,31.19,21.84,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0727,W060,405.94,31.19,21.84,2024,chloride_mg_l,mg/L,120.0
+T0728,W060,405.94,31.19,21.84,2024,specific_conductance_us_cm,uS/cm,600.0
+T0729,W060,405.94,31.19,21.84,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0730,W060,405.94,31.19,21.84,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0731,W060,405.94,31.19,21.84,2028,chloride_mg_l,mg/L,120.0
+T0732,W060,405.94,31.19,21.84,2028,specific_conductance_us_cm,uS/cm,600.0
+T0733,W060,405.94,31.19,21.84,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0734,W060,405.94,31.19,21.84,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0735,W060,405.94,31.19,21.84,2032,chloride_mg_l,mg/L,120.0
+T0736,W060,405.94,31.19,21.84,2032,specific_conductance_us_cm,uS/cm,600.0
+T0737,W060,405.94,31.19,21.84,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0738,W060,405.94,31.19,21.84,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0739,W060,405.94,31.19,21.84,2036,chloride_mg_l,mg/L,120.0
+T0740,W060,405.94,31.19,21.84,2036,specific_conductance_us_cm,uS/cm,600.0
+T0741,W060,405.94,31.19,21.84,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0742,W060,405.94,31.19,21.84,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0743,W060,405.94,31.19,21.84,2040,chloride_mg_l,mg/L,120.0
+T0744,W060,405.94,31.19,21.84,2040,specific_conductance_us_cm,uS/cm,600.0
+T0745,W061,4954.27,191.64,24.2,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0746,W061,4954.27,191.64,24.2,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0747,W061,4954.27,191.64,24.2,2020,chloride_mg_l,mg/L,120.0
+T0748,W061,4954.27,191.64,24.2,2020,specific_conductance_us_cm,uS/cm,600.0
+T0749,W061,4954.27,191.64,24.2,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0750,W061,4954.27,191.64,24.2,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0751,W061,4954.27,191.64,24.2,2024,chloride_mg_l,mg/L,120.0
+T0752,W061,4954.27,191.64,24.2,2024,specific_conductance_us_cm,uS/cm,600.0
+T0753,W061,4954.27,191.64,24.2,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0754,W061,4954.27,191.64,24.2,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0755,W061,4954.27,191.64,24.2,2028,chloride_mg_l,mg/L,120.0
+T0756,W061,4954.27,191.64,24.2,2028,specific_conductance_us_cm,uS/cm,600.0
+T0757,W061,4954.27,191.64,24.2,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0758,W061,4954.27,191.64,24.2,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0759,W061,4954.27,191.64,24.2,2032,chloride_mg_l,mg/L,120.0
+T0760,W061,4954.27,191.64,24.2,2032,specific_conductance_us_cm,uS/cm,600.0
+T0761,W061,4954.27,191.64,24.2,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0762,W061,4954.27,191.64,24.2,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0763,W061,4954.27,191.64,24.2,2036,chloride_mg_l,mg/L,120.0
+T0764,W061,4954.27,191.64,24.2,2036,specific_conductance_us_cm,uS/cm,600.0
+T0765,W061,4954.27,191.64,24.2,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0766,W061,4954.27,191.64,24.2,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0767,W061,4954.27,191.64,24.2,2040,chloride_mg_l,mg/L,120.0
+T0768,W061,4954.27,191.64,24.2,2040,specific_conductance_us_cm,uS/cm,600.0
+T0769,W005,1326.66,-246.27,16.22,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0770,W005,1326.66,-246.27,16.22,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0771,W005,1326.66,-246.27,16.22,2020,chloride_mg_l,mg/L,120.0
+T0772,W005,1326.66,-246.27,16.22,2020,specific_conductance_us_cm,uS/cm,600.0
+T0773,W005,1326.66,-246.27,16.22,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0774,W005,1326.66,-246.27,16.22,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0775,W005,1326.66,-246.27,16.22,2024,chloride_mg_l,mg/L,120.0
+T0776,W005,1326.66,-246.27,16.22,2024,specific_conductance_us_cm,uS/cm,600.0
+T0777,W005,1326.66,-246.27,16.22,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0778,W005,1326.66,-246.27,16.22,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0779,W005,1326.66,-246.27,16.22,2028,chloride_mg_l,mg/L,120.0
+T0780,W005,1326.66,-246.27,16.22,2028,specific_conductance_us_cm,uS/cm,600.0
+T0781,W005,1326.66,-246.27,16.22,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0782,W005,1326.66,-246.27,16.22,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0783,W005,1326.66,-246.27,16.22,2032,chloride_mg_l,mg/L,120.0
+T0784,W005,1326.66,-246.27,16.22,2032,specific_conductance_us_cm,uS/cm,600.0
+T0785,W005,1326.66,-246.27,16.22,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0786,W005,1326.66,-246.27,16.22,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0787,W005,1326.66,-246.27,16.22,2036,chloride_mg_l,mg/L,120.0
+T0788,W005,1326.66,-246.27,16.22,2036,specific_conductance_us_cm,uS/cm,600.0
+T0789,W005,1326.66,-246.27,16.22,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0790,W005,1326.66,-246.27,16.22,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0791,W005,1326.66,-246.27,16.22,2040,chloride_mg_l,mg/L,120.0
+T0792,W005,1326.66,-246.27,16.22,2040,specific_conductance_us_cm,uS/cm,600.0
+T0793,W010,1052.8,412.17,19.02,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0794,W010,1052.8,412.17,19.02,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0795,W010,1052.8,412.17,19.02,2020,chloride_mg_l,mg/L,120.0
+T0796,W010,1052.8,412.17,19.02,2020,specific_conductance_us_cm,uS/cm,600.0
+T0797,W010,1052.8,412.17,19.02,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0798,W010,1052.8,412.17,19.02,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0799,W010,1052.8,412.17,19.02,2024,chloride_mg_l,mg/L,120.0
+T0800,W010,1052.8,412.17,19.02,2024,specific_conductance_us_cm,uS/cm,600.0
+T0801,W010,1052.8,412.17,19.02,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0802,W010,1052.8,412.17,19.02,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0803,W010,1052.8,412.17,19.02,2028,chloride_mg_l,mg/L,120.0
+T0804,W010,1052.8,412.17,19.02,2028,specific_conductance_us_cm,uS/cm,600.0
+T0805,W010,1052.8,412.17,19.02,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0806,W010,1052.8,412.17,19.02,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0807,W010,1052.8,412.17,19.02,2032,chloride_mg_l,mg/L,120.0
+T0808,W010,1052.8,412.17,19.02,2032,specific_conductance_us_cm,uS/cm,600.0
+T0809,W010,1052.8,412.17,19.02,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0810,W010,1052.8,412.17,19.02,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0811,W010,1052.8,412.17,19.02,2036,chloride_mg_l,mg/L,120.0
+T0812,W010,1052.8,412.17,19.02,2036,specific_conductance_us_cm,uS/cm,600.0
+T0813,W010,1052.8,412.17,19.02,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0814,W010,1052.8,412.17,19.02,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0815,W010,1052.8,412.17,19.02,2040,chloride_mg_l,mg/L,120.0
+T0816,W010,1052.8,412.17,19.02,2040,specific_conductance_us_cm,uS/cm,600.0
+T0817,W006,2070.97,-12.88,18.91,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0818,W006,2070.97,-12.88,18.91,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0819,W006,2070.97,-12.88,18.91,2020,chloride_mg_l,mg/L,120.0
+T0820,W006,2070.97,-12.88,18.91,2020,specific_conductance_us_cm,uS/cm,600.0
+T0821,W006,2070.97,-12.88,18.91,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0822,W006,2070.97,-12.88,18.91,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0823,W006,2070.97,-12.88,18.91,2024,chloride_mg_l,mg/L,120.0
+T0824,W006,2070.97,-12.88,18.91,2024,specific_conductance_us_cm,uS/cm,600.0
+T0825,W006,2070.97,-12.88,18.91,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0826,W006,2070.97,-12.88,18.91,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0827,W006,2070.97,-12.88,18.91,2028,chloride_mg_l,mg/L,120.0
+T0828,W006,2070.97,-12.88,18.91,2028,specific_conductance_us_cm,uS/cm,600.0
+T0829,W006,2070.97,-12.88,18.91,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0830,W006,2070.97,-12.88,18.91,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0831,W006,2070.97,-12.88,18.91,2032,chloride_mg_l,mg/L,120.0
+T0832,W006,2070.97,-12.88,18.91,2032,specific_conductance_us_cm,uS/cm,600.0
+T0833,W006,2070.97,-12.88,18.91,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0834,W006,2070.97,-12.88,18.91,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0835,W006,2070.97,-12.88,18.91,2036,chloride_mg_l,mg/L,120.0
+T0836,W006,2070.97,-12.88,18.91,2036,specific_conductance_us_cm,uS/cm,600.0
+T0837,W006,2070.97,-12.88,18.91,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0838,W006,2070.97,-12.88,18.91,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0839,W006,2070.97,-12.88,18.91,2040,chloride_mg_l,mg/L,120.0
+T0840,W006,2070.97,-12.88,18.91,2040,specific_conductance_us_cm,uS/cm,600.0
+T0841,W076,1481.64,328.78,12.77,2020,nitrate_n_mg_l,mg/L as N,10.0
+T0842,W076,1481.64,328.78,12.77,2020,ammonium_n_mg_l,mg/L as N,1.5
+T0843,W076,1481.64,328.78,12.77,2020,chloride_mg_l,mg/L,120.0
+T0844,W076,1481.64,328.78,12.77,2020,specific_conductance_us_cm,uS/cm,600.0
+T0845,W076,1481.64,328.78,12.77,2024,nitrate_n_mg_l,mg/L as N,10.0
+T0846,W076,1481.64,328.78,12.77,2024,ammonium_n_mg_l,mg/L as N,1.5
+T0847,W076,1481.64,328.78,12.77,2024,chloride_mg_l,mg/L,120.0
+T0848,W076,1481.64,328.78,12.77,2024,specific_conductance_us_cm,uS/cm,600.0
+T0849,W076,1481.64,328.78,12.77,2028,nitrate_n_mg_l,mg/L as N,10.0
+T0850,W076,1481.64,328.78,12.77,2028,ammonium_n_mg_l,mg/L as N,1.5
+T0851,W076,1481.64,328.78,12.77,2028,chloride_mg_l,mg/L,120.0
+T0852,W076,1481.64,328.78,12.77,2028,specific_conductance_us_cm,uS/cm,600.0
+T0853,W076,1481.64,328.78,12.77,2032,nitrate_n_mg_l,mg/L as N,10.0
+T0854,W076,1481.64,328.78,12.77,2032,ammonium_n_mg_l,mg/L as N,1.5
+T0855,W076,1481.64,328.78,12.77,2032,chloride_mg_l,mg/L,120.0
+T0856,W076,1481.64,328.78,12.77,2032,specific_conductance_us_cm,uS/cm,600.0
+T0857,W076,1481.64,328.78,12.77,2036,nitrate_n_mg_l,mg/L as N,10.0
+T0858,W076,1481.64,328.78,12.77,2036,ammonium_n_mg_l,mg/L as N,1.5
+T0859,W076,1481.64,328.78,12.77,2036,chloride_mg_l,mg/L,120.0
+T0860,W076,1481.64,328.78,12.77,2036,specific_conductance_us_cm,uS/cm,600.0
+T0861,W076,1481.64,328.78,12.77,2040,nitrate_n_mg_l,mg/L as N,10.0
+T0862,W076,1481.64,328.78,12.77,2040,ammonium_n_mg_l,mg/L as N,1.5
+T0863,W076,1481.64,328.78,12.77,2040,chloride_mg_l,mg/L,120.0
+T0864,W076,1481.64,328.78,12.77,2040,specific_conductance_us_cm,uS/cm,600.0

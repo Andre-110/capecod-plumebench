@@ -1,0 +1,17 @@
+{
+  "monitoring_plan_json": [
+    "selected_wells[].candidate_id",
+    "total_cost_usd",
+    "method"
+  ],
+  "plume_metrics_json": [
+    "metrics[].request_id",
+    "metrics[].plume_front_x_m",
+    "metrics[].centerline_y_m",
+    "metrics[].mass_proxy"
+  ],
+  "predictions_csv_columns": [
+    "target_id",
+    "predicted_value"
+  ]
+}

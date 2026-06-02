@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1100" height="680" viewBox="0 0 1100 680">
+<rect width="100%" height="100%" fill="#fff"/>
+<style>text{font-family:Arial,Helvetica,sans-serif;fill:#111827}.small{font-size:13px}.axis{stroke:#111827;stroke-width:1.4}.grid{stroke:#e5e7eb;stroke-width:1}.raw{fill:#60a5fa;fill-opacity:.34}.best{fill:none;stroke:#dc2626;stroke-width:3}.rawline{fill:none;stroke:#93c5fd;stroke-width:1.25;stroke-opacity:.5}</style>
+<text x="550.0" y="32" text-anchor="middle" font-size="22" font-weight="700">CapeCod-PlumeBench Score Curve: First 120 Minutes</text>
+<text x="550.0" y="55" text-anchor="middle" class="small">run_id=capecod-agent-long-001, points=118, best=20.677 (agent-74)</text>
+<line class="grid" x1="85" y1="595.00" x2="1065" y2="595.00"/>
+<text x="73" y="599.00" text-anchor="end" class="small">0</text>
+<line class="grid" x1="85" y1="490.00" x2="1065" y2="490.00"/>
+<text x="73" y="494.00" text-anchor="end" class="small">5</text>
+<line class="grid" x1="85" y1="385.00" x2="1065" y2="385.00"/>
+<text x="73" y="389.00" text-anchor="end" class="small">10</text>
+<line class="grid" x1="85" y1="280.00" x2="1065" y2="280.00"/>
+<text x="73" y="284.00" text-anchor="end" class="small">15</text>
+<line class="grid" x1="85" y1="175.00" x2="1065" y2="175.00"/>
+<text x="73" y="179.00" text-anchor="end" class="small">20</text>
+<line class="grid" x1="85" y1="70.00" x2="1065" y2="70.00"/>
+<text x="73" y="74.00" text-anchor="end" class="small">25</text>
+<line class="grid" x1="85.00" y1="70" x2="85.00" y2="595"/>
+<text x="85.00" y="619" text-anchor="middle" class="small">0</text>
+<line class="grid" x1="248.33" y1="70" x2="248.33" y2="595"/>
+<text x="248.33" y="619" text-anchor="middle" class="small">20</text>
+<line class="grid" x1="411.67" y1="70" x2="411.67" y2="595"/>
+<text x="411.67" y="619" text-anchor="middle" class="small">40</text>
+<line class="grid" x1="575.00" y1="70" x2="575.00" y2="595"/>
+<text x="575.00" y="619" text-anchor="middle" class="small">60</text>
+<line class="grid" x1="738.33" y1="70" x2="738.33" y2="595"/>
+<text x="738.33" y="619" text-anchor="middle" class="small">80</text>
+<line class="grid" x1="901.67" y1="70" x2="901.67" y2="595"/>
+<text x="901.67" y="619" text-anchor="middle" class="small">100</text>
+<line class="grid" x1="1065.00" y1="70" x2="1065.00" y2="595"/>
+<text x="1065.00" y="619" text-anchor="middle" class="small">120</text>
+<line class="axis" x1="85" y1="595" x2="1065" y2="595"/>
+<line class="axis" x1="85" y1="70" x2="85" y2="595"/>
+<text x="550.0" y="652" text-anchor="middle" font-size="15">Elapsed time since run start (minutes)</text>
+<text transform="translate(26,340.0) rotate(-90)" text-anchor="middle" font-size="15">TOTAL_SCORE</text>
+<polyline class="rawline" points="92.08,458.52 128.28,458.52 169.52,414.13 173.88,414.13 183.82,415.35 193.07,414.53 205.19,414.25 210.36,414.25 217.71,430.76 229.96,414.46 249.29,414.88 251.19,414.88 259.90,414.13 268.48,414.13 279.09,413.69 286.85,407.68 292.03,407.68 294.07,410.83 302.10,405.01 310.26,406.13 317.75,406.65 329.59,380.74 332.86,380.74 337.08,358.46 344.56,333.42 350.96,302.95 359.13,266.12 368.79,266.12 373.69,266.12 376.82,266.12 385.53,265.09 393.97,257.99 404.18,269.86 414.52,245.14 414.93,245.14 422.28,251.06 430.86,238.44 439.98,236.19 449.23,242.64 455.36,242.64 458.08,220.68 467.47,223.32 476.46,231.83 486.53,218.49 495.38,225.32 496.19,225.32 505.04,208.73 514.02,249.36 523.41,209.63 533.08,213.47 537.02,213.47 542.74,217.44 552.27,227.52 562.07,233.40 569.42,229.56 577.86,206.69 577.86,206.69 585.07,198.84 592.83,213.03 601.54,202.80 610.25,203.31 618.69,203.31 630.53,198.50 638.97,198.62 647.27,173.11 654.49,199.57 659.52,199.57 661.43,197.32 668.37,169.46 676.40,169.46 685.25,184.39 695.46,169.46 700.36,169.46 704.85,172.14 712.74,170.55 723.91,178.30 733.43,169.54 741.19,228.57 745.14,228.57 757.39,170.13 765.28,192.22 774.27,161.46 781.89,175.02 782.02,175.02 791.82,164.42 800.26,164.40 809.38,166.26 818.23,162.19 822.86,162.19 827.08,162.51 836.61,165.09 844.91,160.78 854.30,175.92 862.60,177.48 863.69,177.48 871.18,170.76 882.61,167.31 891.46,163.55 904.39,160.80 904.52,160.80 913.37,160.97 924.40,161.33 933.11,160.78 942.50,161.24 945.36,161.24 958.29,160.78 986.19,160.78 988.64,160.78 1001.57,276.01 1013.28,168.93 1019.81,167.61 1027.03,163.64 1027.84,163.64 1035.19,175.34 1043.90,173.30 1049.62,161.33 1055.06,160.87 1063.23,170.42"/>
+<circle class="raw" cx="92.08" cy="458.52" r="2.5"><title>agent-1 0.9min score=6.499</title></circle>
+<circle class="raw" cx="128.28" cy="458.52" r="2.5"><title>auto-1 5.3min score=6.499</title></circle>
+<circle class="raw" cx="169.52" cy="414.13" r="2.5"><title>auto-2 10.3min score=8.613</title></circle>
+<circle class="raw" cx="173.88" cy="414.13" r="2.5"><title>agent-2 10.9min score=8.613</title></circle>
+<circle class="raw" cx="183.82" cy="415.35" r="2.5"><title>agent-3 12.1min score=8.555</title></circle>
+<circle class="raw" cx="193.07" cy="414.53" r="2.5"><title>agent-4 13.2min score=8.594</title></circle>
+<circle class="raw" cx="205.19" cy="414.25" r="2.5"><title>agent-5 14.7min score=8.607</title></circle>
+<circle class="raw" cx="210.36" cy="414.25" r="2.5"><title>auto-3 15.3min score=8.607</title></circle>
+<circle class="raw" cx="217.71" cy="430.76" r="2.5"><title>agent-6 16.2min score=7.821</title></circle>
+<circle class="raw" cx="229.96" cy="414.46" r="2.5"><title>agent-7 17.8min score=8.597</title></circle>
+<circle class="raw" cx="249.29" cy="414.88" r="2.5"><title>agent-8 20.1min score=8.577</title></circle>
+<circle class="raw" cx="251.19" cy="414.88" r="2.5"><title>auto-4 20.4min score=8.577</title></circle>
+<circle class="raw" cx="259.90" cy="414.13" r="2.5"><title>agent-9 21.4min score=8.613</title></circle>
+<circle class="raw" cx="268.48" cy="414.13" r="2.5"><title>agent-10 22.5min score=8.613</title></circle>
+<circle class="raw" cx="279.09" cy="413.69" r="2.5"><title>agent-11 23.8min score=8.634</title></circle>
+<circle class="raw" cx="286.85" cy="407.68" r="2.5"><title>agent-12 24.7min score=8.920</title></circle>
+<circle class="raw" cx="292.03" cy="407.68" r="2.5"><title>auto-5 25.4min score=8.920</title></circle>
+<circle class="raw" cx="294.07" cy="410.83" r="2.5"><title>agent-13 25.6min score=8.770</title></circle>
+<circle class="raw" cx="302.10" cy="405.01" r="2.5"><title>agent-14 26.6min score=9.047</title></circle>
+<circle class="raw" cx="310.26" cy="406.13" r="2.5"><title>agent-15 27.6min score=8.994</title></circle>
+<circle class="raw" cx="317.75" cy="406.65" r="2.5"><title>agent-16 28.5min score=8.969</title></circle>
+<circle class="raw" cx="329.59" cy="380.74" r="2.5"><title>agent-17 29.9min score=10.203</title></circle>
+<circle class="raw" cx="332.86" cy="380.74" r="2.5"><title>auto-6 30.4min score=10.203</title></circle>
+<circle class="raw" cx="337.08" cy="358.46" r="2.5"><title>agent-18 30.9min score=11.264</title></circle>
+<circle class="raw" cx="344.56" cy="333.42" r="2.5"><title>agent-19 31.8min score=12.456</title></circle>
+<circle class="raw" cx="350.96" cy="302.95" r="2.5"><title>agent-20 32.6min score=13.907</title></circle>
+<circle class="raw" cx="359.13" cy="266.12" r="2.5"><title>agent-21 33.6min score=15.661</title></circle>
+<circle class="raw" cx="368.79" cy="266.12" r="2.5"><title>agent-22 34.8min score=15.661</title></circle>
+<circle class="raw" cx="373.69" cy="266.12" r="2.5"><title>auto-7 35.4min score=15.661</title></circle>
+<circle class="raw" cx="376.82" cy="266.12" r="2.5"><title>agent-23 35.7min score=15.661</title></circle>
+<circle class="raw" cx="385.53" cy="265.09" r="2.5"><title>agent-24 36.8min score=15.710</title></circle>
+<circle class="raw" cx="393.97" cy="257.99" r="2.5"><title>agent-25 37.8min score=16.048</title></circle>
+<circle class="raw" cx="404.18" cy="269.86" r="2.5"><title>agent-26 39.1min score=15.483</title></circle>
+<circle class="raw" cx="414.52" cy="245.14" r="2.5"><title>auto-8 40.4min score=16.660</title></circle>
+<circle class="raw" cx="414.93" cy="245.14" r="2.5"><title>agent-27 40.4min score=16.660</title></circle>
+<circle class="raw" cx="422.28" cy="251.06" r="2.5"><title>agent-28 41.3min score=16.378</title></circle>
+<circle class="raw" cx="430.86" cy="238.44" r="2.5"><title>agent-29 42.4min score=16.979</title></circle>
+<circle class="raw" cx="439.98" cy="236.19" r="2.5"><title>agent-30 43.5min score=17.086</title></circle>
+<circle class="raw" cx="449.23" cy="242.64" r="2.5"><title>agent-31 44.6min score=16.779</title></circle>
+<circle class="raw" cx="455.36" cy="242.64" r="2.5"><title>auto-9 45.4min score=16.779</title></circle>
+<circle class="raw" cx="458.08" cy="220.68" r="2.5"><title>agent-32 45.7min score=17.825</title></circle>
+<circle class="raw" cx="467.47" cy="223.32" r="2.5"><title>agent-33 46.8min score=17.699</title></circle>
+<circle class="raw" cx="476.46" cy="231.83" r="2.5"><title>agent-34 47.9min score=17.294</title></circle>
+<circle class="raw" cx="486.53" cy="218.49" r="2.5"><title>agent-35 49.2min score=17.929</title></circle>
+<circle class="raw" cx="495.38" cy="225.32" r="2.5"><title>agent-36 50.2min score=17.604</title></circle>
+<circle class="raw" cx="496.19" cy="225.32" r="2.5"><title>auto-10 50.4min score=17.604</title></circle>
+<circle class="raw" cx="505.04" cy="208.73" r="2.5"><title>agent-37 51.4min score=18.394</title></circle>
+<circle class="raw" cx="514.02" cy="249.36" r="2.5"><title>agent-38 52.5min score=16.459</title></circle>
+<circle class="raw" cx="523.41" cy="209.63" r="2.5"><title>agent-39 53.7min score=18.351</title></circle>
+<circle class="raw" cx="533.08" cy="213.47" r="2.5"><title>agent-40 54.9min score=18.168</title></circle>
+<circle class="raw" cx="537.02" cy="213.47" r="2.5"><title>auto-11 55.4min score=18.168</title></circle>
+<circle class="raw" cx="542.74" cy="217.44" r="2.5"><title>agent-41 56.0min score=17.979</title></circle>
+<circle class="raw" cx="552.27" cy="227.52" r="2.5"><title>agent-42 57.2min score=17.499</title></circle>
+<circle class="raw" cx="562.07" cy="233.40" r="2.5"><title>agent-43 58.4min score=17.219</title></circle>
+<circle class="raw" cx="569.42" cy="229.56" r="2.5"><title>agent-44 59.3min score=17.402</title></circle>
+<circle class="raw" cx="577.86" cy="206.69" r="2.5"><title>auto-12 60.4min score=18.491</title></circle>
+<circle class="raw" cx="577.86" cy="206.69" r="2.5"><title>agent-45 60.4min score=18.491</title></circle>
+<circle class="raw" cx="585.07" cy="198.84" r="2.5"><title>agent-46 61.2min score=18.865</title></circle>
+<circle class="raw" cx="592.83" cy="213.03" r="2.5"><title>agent-47 62.2min score=18.189</title></circle>
+<circle class="raw" cx="601.54" cy="202.80" r="2.5"><title>agent-48 63.2min score=18.676</title></circle>
+<circle class="raw" cx="610.25" cy="203.31" r="2.5"><title>agent-49 64.3min score=18.652</title></circle>
+<circle class="raw" cx="618.69" cy="203.31" r="2.5"><title>auto-13 65.3min score=18.652</title></circle>
+<circle class="raw" cx="630.53" cy="198.50" r="2.5"><title>agent-50 66.8min score=18.881</title></circle>
+<circle class="raw" cx="638.97" cy="198.62" r="2.5"><title>agent-51 67.8min score=18.875</title></circle>
+<circle class="raw" cx="647.27" cy="173.11" r="2.5"><title>agent-52 68.8min score=20.090</title></circle>
+<circle class="raw" cx="654.49" cy="199.57" r="2.5"><title>agent-53 69.7min score=18.830</title></circle>
+<circle class="raw" cx="659.52" cy="199.57" r="2.5"><title>auto-14 70.3min score=18.830</title></circle>
+<circle class="raw" cx="661.43" cy="197.32" r="2.5"><title>agent-54 70.6min score=18.937</title></circle>
+<circle class="raw" cx="668.37" cy="169.46" r="2.5"><title>agent-55 71.4min score=20.264</title></circle>
+<circle class="raw" cx="676.40" cy="169.46" r="2.5"><title>agent-56 72.4min score=20.264</title></circle>
+<circle class="raw" cx="685.25" cy="184.39" r="2.5"><title>agent-57 73.5min score=19.553</title></circle>
+<circle class="raw" cx="695.46" cy="169.46" r="2.5"><title>agent-58 74.8min score=20.264</title></circle>
+<circle class="raw" cx="700.36" cy="169.46" r="2.5"><title>auto-15 75.3min score=20.264</title></circle>
+<circle class="raw" cx="704.85" cy="172.14" r="2.5"><title>agent-59 75.9min score=20.136</title></circle>
+<circle class="raw" cx="712.74" cy="170.55" r="2.5"><title>agent-60 76.9min score=20.212</title></circle>
+<circle class="raw" cx="723.91" cy="178.30" r="2.5"><title>agent-61 78.2min score=19.843</title></circle>
+<circle class="raw" cx="733.43" cy="169.54" r="2.5"><title>agent-62 79.4min score=20.260</title></circle>
+<circle class="raw" cx="741.19" cy="228.57" r="2.5"><title>auto-16 80.3min score=17.449</title></circle>
+<circle class="raw" cx="745.14" cy="228.57" r="2.5"><title>agent-63 80.8min score=17.449</title></circle>
+<circle class="raw" cx="757.39" cy="170.13" r="2.5"><title>agent-64 82.3min score=20.232</title></circle>
+<circle class="raw" cx="765.28" cy="192.22" r="2.5"><title>agent-65 83.3min score=19.180</title></circle>
+<circle class="raw" cx="774.27" cy="161.46" r="2.5"><title>agent-66 84.4min score=20.645</title></circle>
+<circle class="raw" cx="781.89" cy="175.02" r="2.5"><title>agent-67 85.3min score=19.999</title></circle>
+<circle class="raw" cx="782.02" cy="175.02" r="2.5"><title>auto-17 85.3min score=19.999</title></circle>
+<circle class="raw" cx="791.82" cy="164.42" r="2.5"><title>agent-68 86.5min score=20.504</title></circle>
+<circle class="raw" cx="800.26" cy="164.40" r="2.5"><title>agent-69 87.6min score=20.505</title></circle>
+<circle class="raw" cx="809.38" cy="166.26" r="2.5"><title>agent-70 88.7min score=20.416</title></circle>
+<circle class="raw" cx="818.23" cy="162.19" r="2.5"><title>agent-71 89.8min score=20.610</title></circle>
+<circle class="raw" cx="822.86" cy="162.19" r="2.5"><title>auto-18 90.3min score=20.610</title></circle>
+<circle class="raw" cx="827.08" cy="162.51" r="2.5"><title>agent-72 90.9min score=20.595</title></circle>
+<circle class="raw" cx="836.61" cy="165.09" r="2.5"><title>agent-73 92.0min score=20.472</title></circle>
+<circle class="raw" cx="844.91" cy="160.78" r="2.5"><title>agent-74 93.0min score=20.677</title></circle>
+<circle class="raw" cx="854.30" cy="175.92" r="2.5"><title>agent-75 94.2min score=19.956</title></circle>
+<circle class="raw" cx="862.60" cy="177.48" r="2.5"><title>agent-76 95.2min score=19.882</title></circle>
+<circle class="raw" cx="863.69" cy="177.48" r="2.5"><title>auto-19 95.3min score=19.882</title></circle>
+<circle class="raw" cx="871.18" cy="170.76" r="2.5"><title>agent-77 96.3min score=20.202</title></circle>
+<circle class="raw" cx="882.61" cy="167.31" r="2.5"><title>agent-78 97.7min score=20.366</title></circle>
+<circle class="raw" cx="891.46" cy="163.55" r="2.5"><title>agent-79 98.8min score=20.545</title></circle>
+<circle class="raw" cx="904.39" cy="160.80" r="2.5"><title>agent-80 100.3min score=20.676</title></circle>
+<circle class="raw" cx="904.52" cy="160.80" r="2.5"><title>auto-20 100.3min score=20.676</title></circle>
+<circle class="raw" cx="913.37" cy="160.97" r="2.5"><title>agent-81 101.4min score=20.668</title></circle>
+<circle class="raw" cx="924.40" cy="161.33" r="2.5"><title>agent-82 102.8min score=20.651</title></circle>
+<circle class="raw" cx="933.11" cy="160.78" r="2.5"><title>agent-83 103.8min score=20.677</title></circle>
+<circle class="raw" cx="942.50" cy="161.24" r="2.5"><title>agent-84 105.0min score=20.655</title></circle>
+<circle class="raw" cx="945.36" cy="161.24" r="2.5"><title>auto-21 105.3min score=20.655</title></circle>
+<circle class="raw" cx="958.29" cy="160.78" r="2.5"><title>agent-85 106.9min score=20.677</title></circle>
+<circle class="raw" cx="986.19" cy="160.78" r="2.5"><title>auto-22 110.3min score=20.677</title></circle>
+<circle class="raw" cx="988.64" cy="160.78" r="2.5"><title>agent-86 110.7min score=20.677</title></circle>
+<circle class="raw" cx="1001.57" cy="276.01" r="2.5"><title>agent-87 112.2min score=15.190</title></circle>
+<circle class="raw" cx="1013.28" cy="168.93" r="2.5"><title>agent-88 113.7min score=20.289</title></circle>
+<circle class="raw" cx="1019.81" cy="167.61" r="2.5"><title>agent-89 114.5min score=20.352</title></circle>
+<circle class="raw" cx="1027.03" cy="163.64" r="2.5"><title>auto-23 115.3min score=20.541</title></circle>
+<circle class="raw" cx="1027.84" cy="163.64" r="2.5"><title>agent-90 115.5min score=20.541</title></circle>
+<circle class="raw" cx="1035.19" cy="175.34" r="2.5"><title>agent-91 116.3min score=19.984</title></circle>
+<circle class="raw" cx="1043.90" cy="173.30" r="2.5"><title>agent-92 117.4min score=20.081</title></circle>
+<circle class="raw" cx="1049.62" cy="161.33" r="2.5"><title>agent-93 118.1min score=20.651</title></circle>
+<circle class="raw" cx="1055.06" cy="160.87" r="2.5"><title>agent-94 118.8min score=20.673</title></circle>
+<circle class="raw" cx="1063.23" cy="170.42" r="2.5"><title>agent-95 119.8min score=20.218</title></circle>
+<polyline class="best" points="92.08,458.52 128.28,458.52 169.52,414.13 173.88,414.13 183.82,414.13 193.07,414.13 205.19,414.13 210.36,414.13 217.71,414.13 229.96,414.13 249.29,414.13 251.19,414.13 259.90,414.13 268.48,414.13 279.09,413.69 286.85,407.68 292.03,407.68 294.07,407.68 302.10,405.01 310.26,405.01 317.75,405.01 329.59,380.74 332.86,380.74 337.08,358.46 344.56,333.42 350.96,302.95 359.13,266.12 368.79,266.12 373.69,266.12 376.82,266.12 385.53,265.09 393.97,257.99 404.18,257.99 414.52,245.14 414.93,245.14 422.28,245.14 430.86,238.44 439.98,236.19 449.23,236.19 455.36,236.19 458.08,220.68 467.47,220.68 476.46,220.68 486.53,218.49 495.38,218.49 496.19,218.49 505.04,208.73 514.02,208.73 523.41,208.73 533.08,208.73 537.02,208.73 542.74,208.73 552.27,208.73 562.07,208.73 569.42,208.73 577.86,206.69 577.86,206.69 585.07,198.84 592.83,198.84 601.54,198.84 610.25,198.84 618.69,198.84 630.53,198.50 638.97,198.50 647.27,173.11 654.49,173.11 659.52,173.11 661.43,173.11 668.37,169.46 676.40,169.46 685.25,169.46 695.46,169.46 700.36,169.46 704.85,169.46 712.74,169.46 723.91,169.46 733.43,169.46 741.19,169.46 745.14,169.46 757.39,169.46 765.28,169.46 774.27,161.46 781.89,161.46 782.02,161.46 791.82,161.46 800.26,161.46 809.38,161.46 818.23,161.46 822.86,161.46 827.08,161.46 836.61,161.46 844.91,160.78 854.30,160.78 862.60,160.78 863.69,160.78 871.18,160.78 882.61,160.78 891.46,160.78 904.39,160.78 904.52,160.78 913.37,160.78 924.40,160.78 933.11,160.78 942.50,160.78 945.36,160.78 958.29,160.78 986.19,160.78 988.64,160.78 1001.57,160.78 1013.28,160.78 1019.81,160.78 1027.03,160.78 1027.84,160.78 1035.19,160.78 1043.90,160.78 1049.62,160.78 1055.06,160.78 1063.23,160.78"/>
+<rect x="91" y="72" width="330" height="110" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+<text x="101" y="86" class="small" font-weight="700">Best score by checkpoint</text>
+<text x="101" y="104" class="small"> 30 min: 10.203 (agent-17)</text>
+<text x="101" y="122" class="small"> 60 min: 18.394 (agent-37)</text>
+<text x="101" y="140" class="small"> 90 min: 20.645 (agent-66)</text>
+<text x="101" y="158" class="small">120 min: 20.677 (agent-74)</text>
+<rect x="758" y="68" width="285" height="60" rx="6" fill="#f9fafb" stroke="#d1d5db"/>
+<line x1="770" y1="86" x2="808" y2="86" stroke="#93c5fd" stroke-width="2" stroke-opacity=".6"/>
+<text x="818" y="90" class="small">raw submission score</text>
+<line x1="770" y1="110" x2="808" y2="110" stroke="#dc2626" stroke-width="3"/>
+<text x="818" y="114" class="small">best score so far</text>
+</svg>

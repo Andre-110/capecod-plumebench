@@ -1,0 +1,12 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+*.log
+*.tmp
+predictions.csv
+plume_metrics.json
+monitoring_plan.json
+answer.json
+report.md

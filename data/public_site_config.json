@@ -1,0 +1,47 @@
+{
+  "analytes": {
+    "ammonium_n_mg_l": {
+      "background": 0.04,
+      "decay": 0.045,
+      "peak": 6.0,
+      "retardation": 1.18,
+      "threshold": 1.5,
+      "unit": "mg/L as N"
+    },
+    "chloride_mg_l": {
+      "background": 18.0,
+      "decay": 0.012,
+      "peak": 230.0,
+      "retardation": 0.72,
+      "threshold": 120.0,
+      "unit": "mg/L"
+    },
+    "nitrate_n_mg_l": {
+      "background": 0.12,
+      "decay": 0.022,
+      "peak": 24.0,
+      "retardation": 0.92,
+      "threshold": 10.0,
+      "unit": "mg/L as N"
+    },
+    "specific_conductance_us_cm": {
+      "background": 95.0,
+      "decay": 0.01,
+      "peak": 900.0,
+      "retardation": 0.68,
+      "threshold": 600.0,
+      "unit": "uS/cm"
+    }
+  },
+  "coordinate_system": "local meters; x is approximately downgradient",
+  "monitoring_budget": {
+    "budget_usd": 72000.0,
+    "max_new_wells": 8
+  },
+  "public_year_max": 2008,
+  "site_name": "Cape Cod treated-wastewater plume inspired benchmark",
+  "source": {
+    "description": "Offline synthetic derivative inspired by USGS Cape Cod long-term treated-wastewater plume monitoring.",
+    "reference": "USGS data release: Chemical data from 40 years of monitoring a treated-wastewater groundwater plume in a sand and gravel aquifer, Cape Cod, Massachusetts."
+  }
+}

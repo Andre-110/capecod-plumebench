@@ -1,0 +1,44 @@
+CapeCod-PlumeBench Data Provenance
+==================================
+
+This repository contains an offline deterministic benchmark inspired by the
+USGS Cape Cod treated-wastewater groundwater plume monitoring program. The
+files in `data/` are not a live download from USGS. They are a physics-inspired
+synthetic derivative designed for SE-Bench style hidden evaluation.
+
+Why synthetic derivative data are used:
+
+- The benchmark must be reproducible without network access.
+- The public workspace must not contain hidden target concentrations.
+- The judge must keep hidden future scenarios, hidden wells, hidden plume
+  metrics, and hidden candidate monitoring utilities outside the agent-visible
+  workspace.
+- The task should preserve the real research workflow: well chemistry, plume
+  migration in a sand-and-gravel aquifer, future risk prediction, and monitoring
+  campaign design.
+
+Public files:
+
+- `data/public_wells.csv`: 60 public well locations and screen depths.
+- `data/public_observations.csv`: 4183 public chemistry observations from
+  1978-2018.
+- `data/prediction_requests.csv`: 864 future prediction requests over 36 target
+  wells, 6 future years, and 4 analytes.
+- `data/plume_metric_requests.csv`: 8 nitrate/chloride plume-scale metric
+  requests.
+- `data/candidate_monitoring_wells.csv`: 40 candidate monitoring wells.
+- `data/public_site_config.json`: units, thresholds, analyte parameters, and
+  monitoring budget.
+
+Hidden judge files are not included in this public repository. In the SE-Bench
+task image they are generated inside the judge image under `/opt/capecod_hidden`
+and are readable only by the scorer.
+
+Reference context:
+
+USGS data release title:
+"Chemical Data From 40 Years of Monitoring a Treated-Wastewater Groundwater
+Plume in a Sand and Gravel Aquifer, Cape Cod, Massachusetts, 1978-2018"
+
+This benchmark is an offline synthetic derivative of that monitoring setting,
+not a redistribution of the full original USGS dataset.

@@ -1,0 +1,9 @@
+request_id,year,analyte,threshold
+M001,2024,nitrate_n_mg_l,10.0
+M002,2028,nitrate_n_mg_l,10.0
+M003,2032,nitrate_n_mg_l,10.0
+M004,2040,nitrate_n_mg_l,10.0
+M005,2024,chloride_mg_l,120.0
+M006,2028,chloride_mg_l,120.0
+M007,2032,chloride_mg_l,120.0
+M008,2040,chloride_mg_l,120.0
