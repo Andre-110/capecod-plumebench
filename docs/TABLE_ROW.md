@@ -8,7 +8,7 @@
 | 序号 | 待填写 |
 | 作业人员姓名 | 待填写 |
 | Xpert 平台昵称 | 待填写 |
-| 进度 | 已完成可交付；work/judge 镜像可跑通；baseline/reference 验证完成；修复后 30min、2h、8h+ 长程验证已通过；24h 上限长跑仍在运行 |
+| 进度 | 已完成可交付；work/judge 镜像可跑通；baseline/reference 验证完成；修复后 30min、2h、8h+ 长程验证已通过；24h 上限长跑已完成 |
 | 任务名称 | CapeCod-PlumeBench：地下水污染羽时空重建、隐藏监测井/隐藏年份浓度预测与监测井布设优化 |
 | 任务分类 | 工程/工科 |
 | VLM/LLM 执行 | LLM |
@@ -18,17 +18,17 @@
 | 所需资源 | CPU 4 核及以上，内存 8GB 及以上，磁盘 20GB 及以上；推荐 CPU 8 核、内存 16GB。 |
 | 确认是否 Linux 系统可跑通 | 是 |
 | 任务描述（题干，agent prompt） | Agent 扮演地下水污染场地修复建模工程师。任务基于 USGS Cape Cod treated-wastewater groundwater plume 长期监测场景的离线物理派生基准。Agent 需要读取公开监测井、水质观测、候选监测井和场地配置，建立污染羽时空预测模型，预测 hidden wells / hidden years / hidden analytes 浓度，估计 plume front、centerline、mass proxy 等指标，并在预算和井数约束下提出下一阶段监测井布设方案。最终需要生成 `model.py`、`predict.py`、`monitoring_plan.py`、`predictions.csv`、`plume_metrics.json`、`monitoring_plan.json`、`answer.json`、`report.md`。hidden judge 只返回 aggregate 总分，避免 Agent 根据分项反馈快速 hill-climb。 |
-| 人类最优/本人最优完成度 | 本人完成度 100%。已完成任务 JSON、数据生成器、公开/隐藏数据、starter baseline、reference solution、judge scorer、work/judge 镜像、隔离验证、评分口径修复、Codex 外层持续运行修复、30min/2h/8h+ Agent 长程验证和 GitHub 公开仓库上传。reference submission 得分 100.000/100；starter baseline 得分 6.499/100；当前长程 Agent best score 23.056/100。 |
+| 人类最优/本人最优完成度 | 本人完成度 100%。已完成任务 JSON、数据生成器、公开/隐藏数据、starter baseline、reference solution、judge scorer、work/judge 镜像、隔离验证、评分口径修复、Codex 外层持续运行修复、30min/2h/8h+ Agent 长程验证和 GitHub 公开仓库上传。reference submission 得分 100.000/100；starter baseline 得分 6.499/100；24h 长程 Agent best score 31.093/100。 |
 | 人类最优效果/本人完成 | 文件路径：`/root/SE-bench-main/tasks/capecod_plumebench.json`；`/root/SE-bench-main/task_blueprints/capecod_plumebench/`。GitHub 公开仓库：`https://github.com/Andre-110/capecod-plumebench`。验证记录：`RESULTS.md`、`ACCEPTANCE.md`、`SUBMISSION_PACKET.md`、`TASK_WORKFLOW_AND_JUDGE.md`。reference archive：`reference_submission.tar.gz`。 |
 | 真实性说明 | 任务锚定 USGS Cape Cod treated-wastewater groundwater plume 长期监测场景。该类场景用于研究处理后污水长期入渗对砂砾含水层地下水质量的影响，涉及污染羽迁移、含氮/氯离子等水质指标、监测井布设和风险评估。真实工程中，研究人员通常只能看到部分监测井与部分年份浓度，需要反推污染羽时空结构并决定后续监测方案。为满足 SE-Bench 离线可复现和 hidden 隔离要求，本题使用真实场景锚定的确定性物理派生数据，而不是构建时在线下载大数据。 |
 | 工作量说明 | 1. 场地背景、USGS plume 资料和数据字典理解：2h；2. 公开井位、年份、analyte、检测限和缺失模式探索：2h；3. 数据清洗、单位处理、censored value 处理：2h；4. advection-dispersion / hybrid interpolation 特征设计：3h；5. analyte-specific attenuation、retardation、rebound 行为拟合：3h；6. 交叉验证和 public holdout 调参：2.5h；7. plume metrics 网格估计：2h；8. monitoring plan 约束优化和不确定性分析：2h；9. 报告、answer.json、代码整理和 debug：2h；10. 多轮提交、日志分析、pass_rate 口径修复和持续运行机制修复：4h；11. GitHub 公开仓库整理、数据来源文档、曲线图和表格材料整理：3h。合计约 27.5h。 |
 | 人类工作时长/h | 27.5h 以上；建议填 28h |
 | 任务输入 | `README.md`；`data/public_wells.csv`；`data/public_observations.csv`；`data/prediction_requests.csv`；`data/plume_metric_requests.csv`；`data/candidate_monitoring_wells.csv`；`data/public_site_config.json`；`schemas/output_schema.json`；starter 代码 `model.py`、`predict.py`、`monitoring_plan.py`、`baseline_solver.py`。hidden judge 侧包含 `/opt/capecod_hidden/hidden_targets.csv`、`hidden_metrics.json`、`hidden_candidate_utilities.csv` 和 `/opt/capecod_scoring/evaluate.py`。 |
-| 评分方案 | 总分 100。内部评分：格式与约束 2 分；hidden 浓度预测 45 分；超标风险分类 20 分；污染羽指标估计 26 分；监测井布设方案 6 分；报告解释 1 分。对外返回 `CASE aggregate OK score=...`、`TOTAL_SCORE` 和 coarse feedback，不暴露 hidden truth 或精确分项分数。已修复连续分任务 pass_rate 口径：`pass_rate = TOTAL_SCORE / 100`。starter baseline 6.499/100；reference 100.000/100；长跑 30min best 10.203/100，2h best 20.677/100，8h best 22.274/100，当前长程 best 23.056/100。 |
+| 评分方案 | 总分 100。内部评分：格式与约束 2 分；hidden 浓度预测 45 分；超标风险分类 20 分；污染羽指标估计 26 分；监测井布设方案 6 分；报告解释 1 分。对外返回 `CASE aggregate OK score=...`、`TOTAL_SCORE` 和 coarse feedback，不暴露 hidden truth 或精确分项分数。已修复连续分任务 pass_rate 口径：`pass_rate = TOTAL_SCORE / 100`。starter baseline 6.499/100；reference 100.000/100；长跑 30min best 10.203/100，2h best 20.677/100，8h best 22.274/100，24h final best 31.093/100。 |
 | 评分文件/脚本 | `/opt/capecod_scoring/evaluate.py`；生成源文件在 `/root/SE-bench-main/task_blueprints/capecod_plumebench/create_capecod_task.py`；task JSON 中 `eval_cmd=python /opt/capecod_scoring/evaluate.py`。 |
 | key 是否下发 | 已下发给 harness 运行；任务本身不依赖 key。 |
 | 结构化 JSON 数据 | `/root/SE-bench-main/tasks/capecod_plumebench.json` |
-| 环境空跑说明 | 环境空跑占比较低。镜像 build 是一次性 Docker/依赖安装；单次 hidden judge 评分约 1-5 秒；Agent 主要时间用于读数据、写模型、调参、生成输出和提交。修复后的长跑中 30min 内已有 22 个提交，2h 内 118 个提交，350min 内 390 个提交，24h 上限长跑已累计 2000+ 提交，非等待型空跑。预计环境空跑 <10%，低于 50% 要求。 |
+| 环境空跑说明 | 环境空跑占比较低。镜像 build 是一次性 Docker/依赖安装；单次 hidden judge 评分约 1-5 秒；Agent 主要时间用于读数据、写模型、调参、生成输出和提交。修复后的长跑中 30min 内已有 22 个提交，2h 内 118 个提交，350min 内 390 个提交，24h 上限长跑共 2745 次提交，非等待型空跑。预计环境空跑 <10%，低于 50% 要求。 |
 | 附件（说明文档） | GitHub 文档：`https://github.com/Andre-110/capecod-plumebench/blob/main/README.md`；`https://github.com/Andre-110/capecod-plumebench/blob/main/instruction.md`；`https://github.com/Andre-110/capecod-plumebench/blob/main/docs/DATA_PROVENANCE.txt`；`https://github.com/Andre-110/capecod-plumebench/blob/main/docs/TASK_WORKFLOW_AND_JUDGE.md`；`https://github.com/Andre-110/capecod-plumebench/blob/main/docs/ACCEPTANCE.md`；`https://github.com/Andre-110/capecod-plumebench/blob/main/docs/RESULTS.md`；本地私有验收附件：`reference_submission.tar.gz`、`empty_baseline.tar.gz`；曲线图：`results/capecod_long_30min_score_curve.svg`、`results/capecod_long_120min_score_curve.svg`、`results/capecod_long_350min_score_curve.svg`。 |
 | 源链接（GitHub/文档） | GitHub 公开仓库：`https://github.com/Andre-110/capecod-plumebench`；README：`https://github.com/Andre-110/capecod-plumebench/blob/main/README.md`；任务说明：`https://github.com/Andre-110/capecod-plumebench/blob/main/instruction.md`；数据来源：`https://github.com/Andre-110/capecod-plumebench/blob/main/docs/DATA_PROVENANCE.txt`；评测/工作流说明：`https://github.com/Andre-110/capecod-plumebench/blob/main/docs/TASK_WORKFLOW_AND_JUDGE.md`。 |
 | image_url | `sebench.base.python:latest`; `sebench.work.capecod_plumebench:latest`; `sebench.judge.capecod_plumebench:latest` |
@@ -37,11 +37,11 @@
 | 出题方/整理方 | @刘琦 |
 | 代码仓 | GitHub 公开仓库：`https://github.com/Andre-110/capecod-plumebench`；SE-Bench 本地工作区：`/root/SE-bench-main` |
 | 状态字段 | 完全可交付【环境安装 ready、数据完成集成、debug 修复、测试可跑通、30min/2h/8h+ 长程验证通过、GitHub 已上传】 |
-| 备注 | starter baseline 6.499/100；reference 100.000/100；修复后长跑 `capecod-agent-long-001`：30min best 10.203/100，2h best 20.677/100，8h best 22.274/100，12h best 22.472/100，当前长程 best 23.056/100。GitHub 公开仓库已上传：`https://github.com/Andre-110/capecod-plumebench`。 |
+| 备注 | starter baseline 6.499/100；reference 100.000/100；修复后长跑 `capecod-agent-long-001`：30min best 10.203/100，2h best 20.677/100，8h best 22.274/100，12h best 22.472/100，24h final best 31.093/100。GitHub 公开仓库已上传：`https://github.com/Andre-110/capecod-plumebench`。 |
 | 截图1 - 模型执行 30min 分数 | 可填：`capecod-agent-long-001`，30min best score 10.203/100，round `agent-17`。曲线图：`https://github.com/Andre-110/capecod-plumebench/blob/main/results/capecod_long_30min_score_curve.svg`。 |
 | 截图2 - 模型执行 2h 分数 | 可填：`capecod-agent-long-001`，2h best score 20.677/100，round `agent-74`。曲线图：`https://github.com/Andre-110/capecod-plumebench/blob/main/results/capecod_long_120min_score_curve.svg`。 |
-| 截图3 - 模型执行 8h 以上分数 | 可填：`capecod-agent-long-001`，8h best score 22.274/100，round `agent-635`；12h best score 22.472/100，round `agent-949`；当前长程 best 23.056/100，round `agent-2135`。曲线图：`results/capecod_long_350min_score_curve.svg`，完整日志：`/root/SE-bench-main/logs/runs/capecod-agent-long-001/capecod_plumebench/`。 |
-| 模型执行的不同轮次结果 | 修复后长跑轨迹：baseline=6.499；30min=10.203；60min=18.394；90min=20.645；120min=20.677；240min=21.138；350min=21.471；480min=22.274；720min=22.472；当前长程 best=23.056。2h run `capecod-agent-fixed-001` best=22.045，长跑 `capecod-agent-long-001` 已累计 2000+ 提交。 |
+| 截图3 - 模型执行 8h 以上分数 | 可填：`capecod-agent-long-001`，8h best score 22.274/100，round `agent-635`；12h best score 22.472/100，round `agent-949`；24h final best 31.093/100，round `agent-2135`。曲线图：`results/capecod_long_350min_score_curve.svg`，完整日志：`/root/SE-bench-main/logs/runs/capecod-agent-long-001/capecod_plumebench/`。 |
+| 模型执行的不同轮次结果 | 修复后长跑轨迹：baseline=6.499；30min=10.203；60min=18.394；90min=20.645；120min=20.677；240min=21.138；350min=21.471；480min=22.274；720min=22.472；24h final best=31.093。2h run `capecod-agent-fixed-001` best=22.045，长跑 `capecod-agent-long-001` 共 2745 次提交，agent 2458 次、auto 287 次。 |
 | 工作时长验收人 | 待填写 |
 | 内部验收人 | 待填写 |
 | 验收结果 | 建议写：30min 验证通过，2h 验证通过，8h+ 验证通过，长程自进化曲线有效 |

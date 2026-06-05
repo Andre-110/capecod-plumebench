@@ -709,9 +709,9 @@ timeout: 86400s
 
 - 已运行约 2.5 小时。
 - 当前进入 iteration 2。
-- 当前 best score：`20.700 / 100`。
+- 24h 最终 best score：`31.093 / 100`。
 - 上一轮 2 小时 run 的 best 是 `22.045 / 100`。
-- 长跑仍在继续。
+- 长跑已完成，运行时长约 86400 秒。
 
 作为对照，修复前后有代表性的运行分数如下：
 
@@ -721,4 +721,4 @@ timeout: 86400s
 | `capecod-agent-hardv2-001` | 2h | 10.898 | 早期 hard-v2，aggregate feedback 下提升有限 |
 | `capecod-agent-hardv3-005` | 约 65min | 11.813 | hard-v3 一次中等表现 |
 | `capecod-agent-fixed-001` | 2h | 22.045 | 修复 pass_rate 和外层持续运行后达到中间区间 |
-| `capecod-agent-long-001` | 运行中 | 最近约 20.700 | 24h 上限长跑，仍在继续 |
+| `capecod-agent-long-001` | 24h | 31.093 | 24h 上限长跑完成，2745 次提交，最终 best round `agent-2457` |

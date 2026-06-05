@@ -83,3 +83,43 @@ mean is intentionally weak. Strong submissions usually combine:
 
 Do not try to read hidden judge files or scoring code. Your code is run as a restricted user during
 evaluation, and hidden truth files are outside the workspace.
+
+## Judge Feedback Format
+
+After `sebench-submit`, the hidden judge returns aggregate score plus coarse
+component feedback. The feedback is intentionally coarse: it helps you choose
+what to improve next without revealing hidden target values or exact component
+sub-scores.
+
+Main fields:
+
+- `TOTAL_SCORE`: overall score out of 100. For this continuous-score task, a
+  higher score is better.
+- `CASE aggregate OK score=<value>`: the same aggregate score in the format used
+  by the SE-Bench `score_sum` parser.
+- `TASK_RESULT model_prediction low|medium|high`: concentration prediction
+  quality for hidden well/year/analyte requests. This is the largest component
+  (45 points).
+- `TASK_RESULT risk_classification low|medium|high`: threshold exceedance
+  classification quality, based on whether each predicted concentration crosses
+  its analyte threshold (20 points).
+- `TASK_RESULT plume_metrics low|medium|high`: quality of plume-front,
+  centerline, and mass-proxy estimates in `plume_metrics.json` (26 points).
+- `TASK_RESULT monitoring_design low|medium|high`: quality of the selected
+  candidate monitoring wells under budget and max-well constraints (6 points).
+- `TASK_RESULT report low|medium|high`: completeness of the technical report and
+  `answer.json` summary (1 point).
+- `MODEL_FEEDBACK`, `RISK_FEEDBACK`, `METRIC_FEEDBACK`, `PLAN_FEEDBACK`, and
+  `REPORT_FEEDBACK`: short directional comments about what to improve.
+
+Band meanings:
+
+- `low`: below 35% of that component's maximum score.
+- `medium`: 35% to 72% of that component's maximum score.
+- `high`: at least 72% of that component's maximum score.
+
+Use these bands as a prioritization signal. For example, `model_prediction low`
+means point concentration predictions need work; `plume_metrics low` means the
+spatial plume-front/centerline/mass estimates need work. The bands do not reveal
+hidden truth values, per-target errors, exact sub-scores, or hidden candidate
+utilities.
